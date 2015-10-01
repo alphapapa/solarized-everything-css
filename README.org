@@ -1,0 +1,35 @@
+* Solarized...Everything?
+This is a small (growing?) collection of user-stylesheets based upon the [[http://ethanschoonover.com/solarized][Solarized]] theme ([[https://github.com/altercation/solarized][repo]]).  It uses [[http://learnboost.github.com/stylus/][Stylus]] to generate the CSS.  The home of this stylesheet is at [[https://github.com/alphapapa/solarized-everything-css]].
+
+Wouldn't it be nice if (almost) every web site looked Solarized?  I thought so.  So here is a start.  :)
+
+You can find some GitHub-specific stylesheets at the [[https://github.com/alphapapa/github-solarized/blob/master/README.org][github-solarized]] repo.
+** Screenshots
+*** Wikipedia
+**** Dark
+:PROPERTIES:
+:ID:       6e61a680-294e-4811-b78c-07ecdbb19e8f
+:END:
+[[screenshots/wikipedia-dark.png]]
+**** Light
+[[screenshots/wikipedia-light.png]]
+** Installation
+Install the stylesheet of your choice according to your browser's method (e.g. using the Stylish extension in Firefox).
+*** Files
+- ~solarized-all-sites*.css~
+  These have all the sites' styles smushed into one big file.  Might work pretty well for most sites.  If the collection grows, it might begin to have conflicts--but it still might work pretty well.  It might be a lot better than adding a separate stylesheet for every site you visit...
+- ~solarized-generic-*.css~
+  These are intended to be generic, suitable for many simple sites.  They probably won't do much for fancy, popular sites with lots of custom CSS, but for simple, mostly unstyled sites, they might work okay.
+- ~solarized-mediawiki-*.css~
+  These are suitable for MediaWiki sites, like Wikipedia.
+** Development
+To make changes, just edit the =.styl= files and run =make=.  (You need to have Stylus installed, of course.)
+
+Basically, nearly the only things that should be in =dark.styl= or =light.styl= should be changes to the =color-= variables that adjust it for light or dark.  Everything else should go in =sites/*.styl=.  Colors are defined as =color-= variables, and mixins are used to insert common CSS properties (like =color=, =background=, etc) with =!important=.  Most changes can be made without inserting CSS properties directly into the selectors.
+
+I highly recommend using Emacs with =stylus-mode= and =outline-minor-mode=, but, of course, you can use whatever you like.  :)
+
+It's a good idea to avoid the use of =*= selectors wherever possible.  They tend to have unanticipated side-effects which can take time to track down.
+** License
+Really?  Come on, it's just some CSS.  Just have fun and share!
+
