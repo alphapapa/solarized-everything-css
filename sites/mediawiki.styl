@@ -1,0 +1,134 @@
+// * mediawiki.styl
+
+// For Wikipedia and other MediaWiki sites
+
+@require generic
+
+body
+    *
+        border-color color-background-highlight-extra-less
+
+// ** Main content
+    
+#content
+    background-color()
+    color()
+
+// ** Header and left-side menu
+#mw-head
+#mw-panel
+    background-color highlight
+        
+    color emphasized
+
+    div.portal
+        background-image none i
+
+#mw-head
+    background-color highlight
+    background-image linear-gradient(to bottom, color-background, color-background-highlight) i
+
+#mw-panel, #p-logo
+    background-image linear-gradient(to right, color-background, color-background-highlight) i
+
+div.vectorTabs
+    background-image linear-gradient(to bottom, color-background, color-background-highlight) i
+
+    ul
+        background-image linear-gradient(to bottom, color-background, color-background-highlight) i
+        
+    ul li
+        background-color highlight
+        background-image none i
+
+        // Pseudo-border between tabs using padding
+        padding 0px 1px 0px 1px i
+
+    span
+        background-color highlight
+        background-image linear-gradient(to bottom, color-background, color-background-highlight) i
+        
+    li.selected, li.selected span
+        background-color transparent
+        background-image linear-gradient(to bottom, color-background-highlight, color-background) i
+
+// *** Logo
+.mw-wiki-logo
+    filter opacity(50%)
+    
+// *** Search box
+div#simpleSearch #searchInput
+    background-color()
+    
+    // This prevents the bottom border of the search box from being covered up
+    padding 0.05em 0px 0.2em 0.2em i        
+    
+// ** Boxes
+.ambox
+.infobox
+#toc
+#toctitle
+.toclevel-1
+    background-color highlight
+    border-color color-background-highlight-extra-less
+    color emphasized
+
+// *** End-of-page
+
+.catlinks
+    background-color highlight
+    border-color color-background-highlight-extra-less
+    color emphasized
+
+// **** Navbox
+.navbox
+    background-color highlight
+    border-color color-background-highlight-extra-less
+    color emphasized
+
+    .th, .navbox-title
+        background-color color-background-highlight-extra-less
+
+.navbox-abovebelow, th.navbox-group, .navbox-subgroup, .navbox-title
+    background-color color-background-highlight-extra-less-less
+
+.navbox-even
+    background-color()    
+        
+// ** Headings
+h1, h2, h3, h4, h5, h6
+    border-color color-background-highlight-extra-less
+    color emphasized
+
+// ** Code
+code
+    background-color color-background-highlight-extra-less
+    border-color color-background-highlight-extra-less
+    color emphasized
+
+// ** Images
+div.thumbinner
+    background-color highlight
+    border-color color-background-highlight-extra-less
+
+img    
+    filter opacity(75%)
+    
+img.thumbimage
+    border-color color-background-highlight-extra-less
+
+// ** Links
+.mw-body .external
+    opacity 0.5 i
+            
+// ** Tables
+
+table.wikitable
+    background-color()
+    border-color color-background-highlight-extra-less
+    color()
+    
+// *** Headers
+
+table.wikitable > * > tr > th
+    background-color highlight  
