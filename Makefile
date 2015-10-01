@@ -4,7 +4,7 @@ CSS_DIR := css
 COLORS := light dark
 
 COMMON_FILES := $(wildcard *.styl)
-SITES := $(patsubst sites/%.styl,%,$(wildcard sites/*.styl))
+SITES := $(patsubst sites/%.styl,%,$(wildcard sites/*))
 
 # ** Functions
 make_site = for color in $(COLORS); do stylus --import $$color.styl -p sites/$(1).styl >$(CSS_DIR)/solarized-$(1)-$$color.css; done
@@ -15,6 +15,9 @@ all: $(SITES)
 
 $(CSS_DIR):
 	mkdir $(CSS_DIR)
+
+# Make all-sites explicitly depend on everything so it will be rebuilt when anything changes
+$(CSS_DIR)/solarized-all-sites-*.css: $(wildcard sites/*)
 
 $(SITES): %: $(CSS_DIR)/solarized-%-dark.css $(CSS_DIR)/solarized-%-light.css
 
