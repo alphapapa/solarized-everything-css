@@ -1,0 +1,15 @@
+* {
+  border-color: #657b83 !important;
+}
+a {
+  color: #268bd2 !important;
+}
+body {
+  background-color: #002b36 !important;
+  color: #839496 !important;
+}
+input,
+textarea {
+  background-color: #073642 !important;
+  color: #839496 !important;
+}
