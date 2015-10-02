@@ -6,26 +6,56 @@ hr
     background-color color-background-highlight-extra-less
     color color-background-highlight-extra-less
 
+.bounty-indicator, .bounty-indicator-tab
+    background-color violet
+                    
+.bottom-notice
+    background-color highlight
+    
+.comments-link
+    color green
+    
+.page-numbers
+    background-color green
+    color emphasized-more
+    
+    &.current
+        background-color orange
+        color color-background
+
+.post-menu
+    a
+        color violet
+            
+.question-status
+    background-color highlight
+
+    
 // ** Code
 
 pre code
     background-color highlight
     color emphasized
 
-    .com 
-        color yellow
-
-    .typ
+    .atn
+        color blue
+    .atv
         color cyan
-        
-    // *** Plain characters
+    .com 
+        color comment
+    .kwd
+        color green
+    .lit
+        color magenta
     .pln
     .pun
         color()
-
-    // *** Literals
-    .lit
-        color red
+    .str
+        color cyan
+    .tag
+        color green
+    .typ
+        color yellow
 
 // ** Footer
 
@@ -36,30 +66,94 @@ pre code
     #footer-sites
         th
             color emphasized
-    
-// ** Top bar
+
+.top-footer-links a
+    color green            
+            
+// ** Header
 
 .topbar
     background-color color-background-highlight-extra-less
     color emphasized
 
+    a
+        color green
+
+.topbar-dialog
+    background-color()
+    box-shadow color-background-highlight-extra 5px 5px 5px
+
+    .current-site-container
+        background-color()
+
+    .header
+        background-color highlight
+
+        a
+            color emphasized
+
+    .site-link
+        color emphasized            
+
+#header
+    background-color color-background-highlight-extra-less
+                
 #hmenus .nav ul li a
     background-color green
     color emphasized-more-more
 
+#question-header
+    .question-hyperlink
+        color emphasized
+    
 // *** Logo
 #hlogo
     a
         filter opacity(75%)
-    
-// ** Sidebar
 
-#sidebar .module.community-bulletin
+// ** Question lists
+
+.new-post-activity
     background-color highlight
-    color emphasized
 
-#sidebar .community-bulletin .bulletin-item-content a
-    color emphasized    
+.tagged-interesting
+    background-color color-background-highlight-extra-less
+
+// *** Answer counts      
+div.answered-accepted
+    background-color green
+    color emphasized-more
+    
+    .mini-counts
+        background-color green
+        color emphasized-more
+        
+.answered
+    // Including answered-but-not-accepted questions
+    .mini-counts
+        span
+            color green
+.unanswered
+    .mini-counts
+        span
+            color()    
+            
+// ** Sidebar
+#hot-network-questions
+    a
+        color cyan
+        
+    h4 a.js-gps-track
+        color emphasized
+
+#sidebar
+    .community-bulletin .bulletin-item-content a
+        color emphasized    
+    .module.community-bulletin
+        background-color highlight
+        color emphasized
+    .question-hyperlink
+        color cyan
 
 // *** Labels
 
@@ -70,6 +164,9 @@ pre code
         color emphasized
     
 // *** Chat room ads
+
+#h-chat-link
+    color emphasized
 
 .ad502-room
     background-color highlight
@@ -82,9 +179,11 @@ pre code
     a
         background-color transparent
         background-image linear-gradient(to bottom, color-background, color-background-highlight)
-
+        color emphasized
+        
         &.youarehere
-            background-image linear-gradient(to bottom, color-background-highlight, color-background)
+            background-image linear-gradient(to bottom, orange, color-background)
+            color emphasized-more-more
             
     
 // ** Tags
@@ -92,6 +191,9 @@ pre code
 .post-tag
     background-color highlight-extra
     color color-background
+
+    &::before
+        background-color()
 
 // ** Users
 
@@ -104,6 +206,9 @@ a.comment-user.owner
 .post-signature
     background-color highlight
     color emphasized
+
+    a
+        color cyan
 
     &.owner
         .user-info .user-details a
