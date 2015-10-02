@@ -1,0 +1,29 @@
+// * mixins.styl
+
+// Mixins for use in all sheets
+
+i = !important
+
+a()
+    color blue i
+
+background-color(c = color-background)
+    if c is "highlight"
+        c = color-background-highlight
+    if c is "highlight-extra"
+        c = color-background-highlight-extra
+    background-color c i
+
+bold()
+    font-weight bold i
+
+border-color(args...)
+    if args
+        c = args
+    else
+        c = color-border
+    border-color c i
+
+color(c = color-text)
+    color c i
+
