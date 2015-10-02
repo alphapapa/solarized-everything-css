@@ -2,22 +2,61 @@ hr {
   background-color: #e9e1c8 !important;
   color: #e9e1c8 !important;
 }
+.bounty-indicator,
+.bounty-indicator-tab {
+  background-color: #6c71c4 !important;
+}
+.bottom-notice {
+  background-color: #eee8d5 !important;
+}
+.comments-link {
+  color: #859900 !important;
+}
+.page-numbers {
+  background-color: #859900 !important;
+  color: #073642 !important;
+}
+.page-numbers.current {
+  background-color: #cb4b16 !important;
+  color: #fdf6e3 !important;
+}
+.post-menu a {
+  color: #6c71c4 !important;
+}
+.question-status {
+  background-color: #eee8d5 !important;
+}
 pre code {
   background-color: #eee8d5 !important;
   color: #586e75 !important;
 }
-pre code .com {
-  color: #b58900 !important;
+pre code .atn {
+  color: #268bd2 !important;
 }
-pre code .typ {
+pre code .atv {
   color: #2aa198 !important;
+}
+pre code .com {
+  color: #93a1a1 !important;
+}
+pre code .kwd {
+  color: #859900 !important;
+}
+pre code .lit {
+  color: #d33682 !important;
 }
 pre code .pln,
 pre code .pun {
   color: #657b83 !important;
 }
-pre code .lit {
-  color: #dc322f !important;
+pre code .str {
+  color: #2aa198 !important;
+}
+pre code .tag {
+  color: #859900 !important;
+}
+pre code .typ {
+  color: #b58900 !important;
 }
 #footer {
   background-color: #ebe4cf !important;
@@ -26,28 +65,88 @@ pre code .lit {
 #footer #footer-sites th {
   color: #586e75 !important;
 }
+.top-footer-links a {
+  color: #859900 !important;
+}
 .topbar {
   background-color: #e9e1c8 !important;
   color: #586e75 !important;
+}
+.topbar a {
+  color: #859900 !important;
+}
+.topbar-dialog {
+  background-color: #fdf6e3 !important;
+  box-shadow: #93a1a1 5px 5px 5px;
+}
+.topbar-dialog .current-site-container {
+  background-color: #fdf6e3 !important;
+}
+.topbar-dialog .header {
+  background-color: #eee8d5 !important;
+}
+.topbar-dialog .header a {
+  color: #586e75 !important;
+}
+.topbar-dialog .site-link {
+  color: #586e75 !important;
+}
+#header {
+  background-color: #e9e1c8 !important;
 }
 #hmenus .nav ul li a {
   background-color: #859900 !important;
   color: #002b36 !important;
 }
+#question-header .question-hyperlink {
+  color: #586e75 !important;
+}
 #hlogo a {
   filter: opacity(75%);
 }
-#sidebar .module.community-bulletin {
+.new-post-activity {
   background-color: #eee8d5 !important;
+}
+.tagged-interesting {
+  background-color: #e9e1c8 !important;
+}
+div.answered-accepted {
+  background-color: #859900 !important;
+  color: #073642 !important;
+}
+div.answered-accepted .mini-counts {
+  background-color: #859900 !important;
+  color: #073642 !important;
+}
+.answered .mini-counts span {
+  color: #859900 !important;
+}
+.unanswered .mini-counts span {
+  color: #657b83 !important;
+}
+#hot-network-questions a {
+  color: #2aa198 !important;
+}
+#hot-network-questions h4 a.js-gps-track {
   color: #586e75 !important;
 }
 #sidebar .community-bulletin .bulletin-item-content a {
   color: #586e75 !important;
 }
+#sidebar .module.community-bulletin {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+#sidebar .question-hyperlink {
+  color: #2aa198 !important;
+}
 .label-key {
   color: #657b83 !important;
 }
 .label-key b {
+  color: #586e75 !important;
+}
+#h-chat-link {
   color: #586e75 !important;
 }
 .ad502-room {
@@ -58,13 +157,18 @@ pre code .lit {
 #tabs a {
   background-color: transparent !important;
   background-image: linear-gradient(to bottom, #fdf6e3, #eee8d5);
+  color: #586e75 !important;
 }
 #tabs a.youarehere {
-  background-image: linear-gradient(to bottom, #eee8d5, #fdf6e3);
+  background-image: linear-gradient(to bottom, #cb4b16, #fdf6e3);
+  color: #002b36 !important;
 }
 .post-tag {
   background-color: #93a1a1 !important;
   color: #fdf6e3 !important;
+}
+.post-tag::before {
+  background-color: #fdf6e3 !important;
 }
 a.comment-user.owner {
   background-color: #859900 !important;
@@ -73,6 +177,9 @@ a.comment-user.owner {
 .post-signature {
   background-color: #eee8d5 !important;
   color: #586e75 !important;
+}
+.post-signature a {
+  color: #2aa198 !important;
 }
 .post-signature.owner .user-info .user-details a {
   color: #859900 !important;

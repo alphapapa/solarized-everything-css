@@ -8,6 +8,9 @@ body {
   background-color: #fdf6e3 !important;
   color: #657b83 !important;
 }
+html {
+  background-color: #fdf6e3 !important;
+}
 input,
 textarea {
   background-color: #eee8d5 !important;
