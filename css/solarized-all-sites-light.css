@@ -18,7 +18,7 @@ pre {
   background-color: #eee8d5 !important;
 }
 body * {
-  border-color: #ebe4cf !important;
+  border-color: #e9e1c8 !important;
 }
 #content {
   background-color: #fdf6e3 !important;
@@ -74,28 +74,28 @@ div#simpleSearch #searchInput {
 #toctitle,
 .toclevel-1 {
   background-color: #eee8d5 !important;
-  border-color: #ebe4cf !important;
+  border-color: #e9e1c8 !important;
   color: #586e75 !important;
 }
 .catlinks {
   background-color: #eee8d5 !important;
-  border-color: #ebe4cf !important;
+  border-color: #e9e1c8 !important;
   color: #586e75 !important;
 }
 .navbox {
   background-color: #eee8d5 !important;
-  border-color: #ebe4cf !important;
+  border-color: #e9e1c8 !important;
   color: #586e75 !important;
 }
 .navbox .th,
 .navbox .navbox-title {
-  background-color: #ebe4cf !important;
+  background-color: #e9e1c8 !important;
 }
 .navbox-abovebelow,
 th.navbox-group,
 .navbox-subgroup,
 .navbox-title {
-  background-color: color-background-highlight-extra-less-less !important;
+  background-color: #ebe4cf !important;
 }
 .navbox-even {
   background-color: #fdf6e3 !important;
@@ -106,32 +106,131 @@ h3,
 h4,
 h5,
 h6 {
-  border-color: #ebe4cf !important;
+  border-color: #e9e1c8 !important;
   color: #586e75 !important;
 }
 code {
-  background-color: #ebe4cf !important;
-  border-color: #ebe4cf !important;
+  background-color: #e9e1c8 !important;
+  border-color: #e9e1c8 !important;
   color: #586e75 !important;
 }
 div.thumbinner {
   background-color: #eee8d5 !important;
-  border-color: #ebe4cf !important;
+  border-color: #e9e1c8 !important;
 }
 img {
   filter: opacity(75%);
 }
 img.thumbimage {
-  border-color: #ebe4cf !important;
+  border-color: #e9e1c8 !important;
 }
 .mw-body .external {
   opacity: 0.5 !important;
 }
 table.wikitable {
   background-color: #fdf6e3 !important;
-  border-color: #ebe4cf !important;
+  border-color: #e9e1c8 !important;
   color: #657b83 !important;
 }
 table.wikitable > * > tr > th {
   background-color: #eee8d5 !important;
+}
+hr {
+  background-color: #e9e1c8 !important;
+  color: #e9e1c8 !important;
+}
+pre code {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+pre code .com {
+  color: #b58900 !important;
+}
+pre code .typ {
+  color: #2aa198 !important;
+}
+pre code .pln,
+pre code .pun {
+  color: #657b83 !important;
+}
+pre code .lit {
+  color: #dc322f !important;
+}
+#footer {
+  background-color: #ebe4cf !important;
+  color: #657b83 !important;
+}
+#footer #footer-sites th {
+  color: #586e75 !important;
+}
+.topbar {
+  background-color: #e9e1c8 !important;
+  color: #586e75 !important;
+}
+#hmenus .nav ul li a {
+  background-color: #859900 !important;
+  color: #002b36 !important;
+}
+#hlogo a {
+  filter: opacity(75%);
+}
+#sidebar .module.community-bulletin {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+#sidebar .community-bulletin .bulletin-item-content a {
+  color: #586e75 !important;
+}
+.label-key {
+  color: #657b83 !important;
+}
+.label-key b {
+  color: #586e75 !important;
+}
+.ad502-room {
+  background-color: #eee8d5 !important;
+  box-shadow: #93a1a1 0px 1px 3px;
+  color: #586e75 !important;
+}
+#tabs a {
+  background-color: transparent !important;
+  background-image: linear-gradient(to bottom, #fdf6e3, #eee8d5);
+}
+#tabs a.youarehere {
+  background-image: linear-gradient(to bottom, #eee8d5, #fdf6e3);
+}
+.post-tag {
+  background-color: #93a1a1 !important;
+  color: #fdf6e3 !important;
+}
+a.comment-user.owner {
+  background-color: #859900 !important;
+  color: #073642 !important;
+}
+.post-signature {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+.post-signature.owner .user-info .user-details a {
+  color: #859900 !important;
+}
+.post-signature span.relativetime {
+  color: #586e75 !important;
+}
+.vote {
+  background-color: #eee8d5 !important;
+}
+.vote .star-off {
+  filter: opacity(75%);
+}
+.vote .star-on {
+  filter: opacity(50%) !important;
+}
+.vote .vote-down-off,
+.vote .vote-up-off {
+  filter: opacity(50%);
+}
+.answer-votes {
+  background-color: #93a1a1 !important;
+  color: #fdf6e3 !important;
 }

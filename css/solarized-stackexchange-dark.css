@@ -1,0 +1,99 @@
+hr {
+  background-color: #094352 !important;
+  color: #094352 !important;
+}
+pre code {
+  background-color: #073642 !important;
+  color: #93a1a1 !important;
+}
+pre code .com {
+  color: #b58900 !important;
+}
+pre code .typ {
+  color: #2aa198 !important;
+}
+pre code .pln,
+pre code .pun {
+  color: #839496 !important;
+}
+pre code .lit {
+  color: #dc322f !important;
+}
+#footer {
+  background-color: #083c4a !important;
+  color: #839496 !important;
+}
+#footer #footer-sites th {
+  color: #93a1a1 !important;
+}
+.topbar {
+  background-color: #094352 !important;
+  color: #93a1a1 !important;
+}
+#hmenus .nav ul li a {
+  background-color: #859900 !important;
+  color: #fdf6e3 !important;
+}
+#hlogo a {
+  filter: opacity(75%);
+}
+#sidebar .module.community-bulletin {
+  background-color: #073642 !important;
+  color: #93a1a1 !important;
+}
+#sidebar .community-bulletin .bulletin-item-content a {
+  color: #93a1a1 !important;
+}
+.label-key {
+  color: #839496 !important;
+}
+.label-key b {
+  color: #93a1a1 !important;
+}
+.ad502-room {
+  background-color: #073642 !important;
+  box-shadow: #586e75 0px 1px 3px;
+  color: #93a1a1 !important;
+}
+#tabs a {
+  background-color: transparent !important;
+  background-image: linear-gradient(to bottom, #002b36, #073642);
+}
+#tabs a.youarehere {
+  background-image: linear-gradient(to bottom, #073642, #002b36);
+}
+.post-tag {
+  background-color: #586e75 !important;
+  color: #002b36 !important;
+}
+a.comment-user.owner {
+  background-color: #859900 !important;
+  color: #eee8d5 !important;
+}
+.post-signature {
+  background-color: #073642 !important;
+  color: #93a1a1 !important;
+}
+.post-signature.owner .user-info .user-details a {
+  color: #859900 !important;
+}
+.post-signature span.relativetime {
+  color: #93a1a1 !important;
+}
+.vote {
+  background-color: #073642 !important;
+}
+.vote .star-off {
+  filter: opacity(75%);
+}
+.vote .star-on {
+  filter: opacity(50%) !important;
+}
+.vote .vote-down-off,
+.vote .vote-up-off {
+  filter: opacity(50%);
+}
+.answer-votes {
+  background-color: #586e75 !important;
+  color: #002b36 !important;
+}
