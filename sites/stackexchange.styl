@@ -1,0 +1,131 @@
+// * stackexchange.styl
+
+// For all Stack Exchange sites
+
+hr
+    background-color color-background-highlight-extra-less
+    color color-background-highlight-extra-less
+
+// ** Code
+
+pre code
+    background-color highlight
+    color emphasized
+
+    .com 
+        color yellow
+
+    .typ
+        color cyan
+        
+    // *** Plain characters
+    .pln
+    .pun
+        color()
+
+    // *** Literals
+    .lit
+        color red
+
+// ** Footer
+
+#footer
+    background-color color-background-highlight-extra-less-less
+    color()
+
+    #footer-sites
+        th
+            color emphasized
+    
+// ** Top bar
+
+.topbar
+    background-color color-background-highlight-extra-less
+    color emphasized
+
+#hmenus .nav ul li a
+    background-color green
+    color emphasized-more-more
+
+// *** Logo
+#hlogo
+    a
+        filter opacity(75%)
+    
+// ** Sidebar
+
+#sidebar .module.community-bulletin
+    background-color highlight
+    color emphasized
+
+#sidebar .community-bulletin .bulletin-item-content a
+    color emphasized    
+
+// *** Labels
+
+.label-key
+    color()
+
+    b
+        color emphasized
+    
+// *** Chat room ads
+
+.ad502-room
+    background-color highlight
+    box-shadow color-background-highlight-extra 0px 1px 3px
+    color emphasized
+
+// ** Tabs
+
+#tabs
+    a
+        background-color transparent
+        background-image linear-gradient(to bottom, color-background, color-background-highlight)
+
+        &.youarehere
+            background-image linear-gradient(to bottom, color-background-highlight, color-background)
+            
+    
+// ** Tags
+
+.post-tag
+    background-color highlight-extra
+    color color-background
+
+// ** Users
+
+// *** Comments
+a.comment-user.owner
+    background-color green
+    color emphasized-more
+
+// *** Post signature
+.post-signature
+    background-color highlight
+    color emphasized
+
+    &.owner
+        .user-info .user-details a
+            color green
+
+    span.relativetime
+        color emphasized            
+                        
+// ** Vote arrows
+.vote
+    background-color highlight
+
+    .star-off
+        filter opacity(75%)
+
+    .star-on
+        filter opacity(50%) i
+    
+    .vote-down-off, .vote-up-off
+        filter opacity(50%)
+
+// *** Vote counts
+.answer-votes
+    background-color highlight-extra
+    color color-background    
