@@ -653,6 +653,30 @@ div.crp {
 #fbar {
   background-color: #073642 !important;
 }
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+  background-color: #cb4b16 !important;
+}
+a {
+  color: #93a1a1 !important;
+}
+.title a {
+  color: #839496 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) {
+  background-color: #002b36 !important;
+}
+#hnmain .comhead {
+  color: #93a1a1 !important;
+}
+#hnmain .c00 {
+  color: #839496 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(4) {
+  background-color: #073642 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+  background-color: #cb4b16 !important;
+}
 body * {
   border-color: #094352 !important;
 }
