@@ -1,7 +1,7 @@
 #hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
   background-color: #cb4b16 !important;
 }
-a {
+#hnmain a {
   color: #586e75 !important;
 }
 .title a {
