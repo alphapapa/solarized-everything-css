@@ -1,0 +1,38 @@
+div#page div#header
+    background-color()
+    a
+        // Since the Emacs icon is purple...
+        color violet
+
+.post
+    background-color()
+
+    *
+        // Not sure why they have overflow set to scroll, which causes
+        // scrollbars on every div, even when there's no overflow.
+        // But this fixes it.
+        overflow auto i
+    h2
+        background-color highlight
+
+        a
+            color emphasized
+
+    div.entry
+        background-color()
+        color()
+
+        blockquote
+            background-color highlight
+
+        kbd
+            background-color highlight
+            border-color comment
+            box-shadow none i
+            color emphasized
+            text-shadow 0px 1px 0px black i
+
+    pre.mode-line
+        // Looks like this div will scroll a lot, but having a scroll
+        // bar is really annoying.  Just set it to visible for now.
+        overflow visible i
