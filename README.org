@@ -3,7 +3,6 @@ This is a small (growing?) collection of user-stylesheets based upon the [[http:
 
 Wouldn't it be nice if (almost) every web site looked Solarized?  I thought so.  So here is a start.  :)
 
-You can find some GitHub-specific stylesheets at the [[https://github.com/alphapapa/github-solarized/blob/master/README.org][github-solarized]] repo.
 ** Contents :TOC:
  - [[#solarizedeverything][Solarized...Everything?]]
      - [[#screenshots][Screenshots]]
