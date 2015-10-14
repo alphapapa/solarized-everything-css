@@ -2,6 +2,7 @@
 
 // All site-specific rules in one file
 
-// Strange that this requires "sites/".  It seems that the --import
-// option changes the directory used for @require.  Maybe a bug?
+// This requires "sites/" because the Makefile runs stylus from the
+// parent directory.  Using "stylus -r" should make this unnecessary,
+// but it doesn't.
 @require 'sites/*'

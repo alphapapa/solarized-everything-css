@@ -4,8 +4,10 @@
 
 i = !important
 
-a()
-    color blue i
+a(c = color-a)
+    if c is "visited"
+        c = color-a-visited
+    color c i
 
 background-color(c = color-background)
     if c is "highlight"
@@ -26,4 +28,3 @@ border-color(args...)
 
 color(c = color-text)
     color c i
-

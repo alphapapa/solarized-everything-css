@@ -16,7 +16,7 @@ You can find some GitHub-specific stylesheets at the [[https://github.com/alphap
 ** Installation
 Install the stylesheet of your choice according to your browser's method (e.g. using the Stylish extension in Firefox).
 *** Files
-- ~solarized-all-sites*.css~
+- ~solarized-all-sites-*.css~
   These have all the sites' styles smushed into one big file.  Might work pretty well for most sites.  If the collection grows, it might begin to have conflicts--but it still might work pretty well.  It might be a lot better than adding a separate stylesheet for every site you visit...
 - ~solarized-generic-*.css~
   These are intended to be generic, suitable for many simple sites.  They probably won't do much for fancy, popular sites with lots of custom CSS, but for simple, mostly unstyled sites, they might work okay.
@@ -30,6 +30,23 @@ Basically, nearly the only things that should be in =dark.styl= or =light.styl= 
 I highly recommend using Emacs with =stylus-mode= and =outline-minor-mode=, but, of course, you can use whatever you like.  :)
 
 It's a good idea to avoid the use of =*= selectors wherever possible.  They tend to have unanticipated side-effects which can take time to track down.
+
+*** Require tree
+Stylus can be very confusing when it comes to importing/requiring sheets into other sheets.  Unfortunately, the order in which they are imported /does/ matter, as each one seems to be parsed and executed in-order, rather than importing them all at once and then having a global namespace.
+
+This is how the sheets ~require~ in this project:
+
++ =Makefile=
+    - =styl/{dark,light}.styl= (in Makefile syntax: ~$$color.styl~)
+        + =colors=
+        + Contents of ={dark,light}.styl=
+    - =styl= (which loads =styl/index.styl=)
+        + =generic=
+            - =mixins=
+    - =sites/*.styl=: The site-specific sheets, as well as =generic.styl=, which applies to all of them, and also builds as a separate sheet for non-specific sites.  =all-sites.styl= puts all of the site-specific sheets into one big CSS file, which some people may prefer over setting up custom CSS for each site in their browser.
+
+This way, the Solarized color values are loaded first, followed by the dark- or light-themed mappings of those color values to friendly names, after which those friendly names can be used in the sheets that actually style elements and pages.
+
 ** License
 Really?  Come on, it's just some CSS.  Just have fun and share!
 
