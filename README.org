@@ -5,6 +5,15 @@ Wouldn't it be nice if (almost) every web site looked Solarized?  I thought so. 
 
 You can find some GitHub-specific stylesheets at the [[https://github.com/alphapapa/github-solarized/blob/master/README.org][github-solarized]] repo.
 ** Screenshots
+
+*** GitHub
+
+**** Dark
+[[screenshots/github-dark.png]]
+
+**** Light
+[[screenshots/github-light.png]]
+
 *** Wikipedia
 **** Dark
 :PROPERTIES:
