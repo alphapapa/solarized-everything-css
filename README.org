@@ -33,7 +33,19 @@ Install the stylesheet of your choice according to your browser's method (e.g. u
 - ~solarized-generic-*.css~
   These are intended to be generic, suitable for many simple sites.  They probably won't do much for fancy, popular sites with lots of custom CSS, but for simple, mostly unstyled sites, they might work okay.
 - ~solarized-mediawiki-*.css~
-  These are suitable for MediaWiki sites, like Wikipedia.
+  For MediaWiki sites, like Wikipedia
+- ~solarized-disqus-*.css~
+  For Disqus comments
+- ~solarized-github-*.css~
+  For GitHub
+- ~solarized-google-*.css~
+  For Google
+- ~solarized-hackernews-*.css~
+  For Hacker News
+- ~solarized-planet.emacsen.org-*.css~
+  For [[http://planet.emacsen.org][Planet Emacsen]]
+- ~solarized-stackexchange-*.css~
+  For StackExchange sites.  Not all sites are covered, but some of the main ones are.  Patches welcome.
 ** Development
 To make changes, just edit the =.styl= files and run =make=.  (You need to have Stylus installed, of course.)
 
