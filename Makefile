@@ -3,7 +3,7 @@ VPATH = .:sites
 CSS_DIR := css
 COLORS := light dark
 
-COMMON_FILES := $(wildcard styl/*.styl)
+COMMON_FILES := $(wildcard styl/*.styl) sites/generic.styl
 SITES := $(patsubst sites/%.styl,%,$(wildcard sites/*))
 
 # ** Functions
