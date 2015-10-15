@@ -31,6 +31,9 @@ pre {
   background-color: #fdf6e3 !important;
   color: #657b83 !important;
 }
+.breadcrumb .repo-root.js-repo-root a {
+  color: #268bd2 !important;
+}
 .breadcrumb strong.final-path {
   color: #657b83 !important;
 }
@@ -38,7 +41,7 @@ pre {
   color: #586e75 !important;
 }
 .counter {
-  background-color: #93a1a1 !important;
+  background-color: #e9e1c8 !important;
   color: #586e75 !important;
 }
 .diffstat-bar {
@@ -308,7 +311,8 @@ pre {
 .full-commit * {
   text-shadow: none !important;
 }
-.full-commit .commit-desc pre {
+.commit-desc pre {
+  background-color: transparent !important;
   color: #657b83 !important;
 }
 .completeness-indicator-success {
@@ -385,6 +389,9 @@ pre {
   background-image: linear-gradient(#859900, #424d00) !important;
   color: #93a1a1 !important;
 }
+.entry-title a {
+  color: #268bd2 !important;
+}
 .header {
   background-color: #eee8d5 !important;
   border-bottom-color: #93a1a1 !important;
@@ -417,24 +424,13 @@ a.label {
 .octicon-repo {
   color: #93a1a1 !important;
 }
-.octicon,
-.octicon.octicon-git-compare,
-.octicon-repo-forked {
-  color: #93a1a1 !important;
-}
-.octicon.type-icon-state-closed,
-.octicon.octicon-git-compare.type-icon-state-closed,
-.octicon-repo-forked.type-icon-state-closed {
+.octicon.octicon-git-compare.type-icon-state-closed {
   color: #dc322f !important;
 }
-.octicon.type-icon-state-merged,
-.octicon.octicon-git-compare.type-icon-state-merged,
-.octicon-repo-forked.type-icon-state-merged {
+.octicon.octicon-git-compare.type-icon-state-merged {
   color: #6c71c4 !important;
 }
-.octicon.type-icon-state-open,
-.octicon.octicon-git-compare.type-icon-state-open,
-.octicon-repo-forked.type-icon-state-open {
+.octicon.octicon-git-compare.type-icon-state-open {
   color: #859900 !important;
 }
 .octicon-check {
@@ -444,7 +440,7 @@ a.label {
   color: #dc322f !important;
 }
 .octicon-clippy {
-  color: #268bd2 !important;
+  color: #586e75 !important;
 }
 .octicon-git-pull-request,
 .octicon-diff {
@@ -539,24 +535,28 @@ a.label {
   background-color: #fdf6e3 !important;
 }
 .sunken-menu {
-  background-image: linear-gradient(to right, #fdf6e3 0%, #eee8d5 8px) !important;
+  background-image: linear-gradient(to right, #eee8d5 0%, #fdf6e3 8px) !important;
   box-shadow: 1px 0px 0px #eee8d5 inset;
 }
 .sunken-menu:before {
-  background-image: linear-gradient(#fdf6e3, rgba(238,213,232,0)) !important;
+  background-image: linear-gradient(#fdf6e3, transparent) !important;
 }
 .sunken-menu:after {
-  background-image: linear-gradient(rgba(238,213,232,0), #fdf6e3) !important;
+  background-image: linear-gradient(transparent, #fdf6e3) !important;
+}
+.sunken-menu-item {
+  border-color: #fdf6e3 !important;
 }
 .sunken-menu-item.selected {
-  background-color: #eee8d5 !important;
+  background-color: #fdf6e3 !important;
+  border-color: #e9e1c8 !important;
   color: #586e75 !important;
 }
 .sunken-menu-item.selected:after {
   background-color: #cb4b16 !important;
 }
-.sunken-menu-separator {
-  background-image: radial-gradient(farthest-side at left top, #eee8d5, rgba(238,213,232,0));
+.sunken-menu-separator:before {
+  background-image: linear-gradient(to right, #eee8d5 70%, #fdf6e3 100%) !important;
 }
 .state {
   color: #586e75 !important;

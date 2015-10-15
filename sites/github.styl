@@ -2,6 +2,9 @@
 
 // ** Misc
 
+.breadcrumb .repo-root.js-repo-root
+    a
+        color blue
 .breadcrumb strong.final-path
     color()
 
@@ -9,7 +12,7 @@
     color emphasized
 
 .counter
-    background-color highlight-extra
+    background-color color-background-highlight-extra-less
     color emphasized
 
 .diffstat-bar
@@ -271,8 +274,9 @@
     *
         text-shadow none i
 
-    .commit-desc pre
-        color()
+.commit-desc pre
+    background-color transparent i        
+    color()
 
 // ** completeness-indicator
 .completeness-indicator-success
@@ -358,6 +362,10 @@
     background-image linear-gradient(green, darken(green, 50%)) i
     color base1
 
+.entry-title
+    a
+        color blue i
+    
 .header
     background-color highlight
     border-bottom-color color-background-highlight-extra i
@@ -392,8 +400,8 @@ a.label
 .octicon, .octicon-repo
     color base1
 
-.octicon, .octicon.octicon-git-compare, .octicon-repo-forked
-    color base1
+.octicon.octicon-git-compare
+    //color color-background-highlight
 
     &.type-icon-state-closed
         color red
@@ -410,7 +418,7 @@ a.label
     color red
 
 .octicon-clippy
-    color blue
+    color emphasized
 
 .octicon-git-pull-request, .octicon-diff
     color()
@@ -505,37 +513,28 @@ a.label
 
 // *** sunken-menu
 .sunken-menu
-    background-image: linear-gradient(to right, color-background 0%, color-background-highlight 8px) i
+    background-image linear-gradient(to right, color-background-highlight 0%, color-background 8px) i
     box-shadow 1px 0px 0px color-background-highlight inset
 
     &:before
-        background-image: linear-gradient(color-background, rgba(red(color-background-highlight),
-                                                                 blue(color-background-highlight),
-                                                                 green(color-background-highlight),
-                                                                 0)) i
+        background-image linear-gradient(color-background, transparent) i
 
     &:after
-        background-image: linear-gradient(rgba(red(color-background-highlight),
-                                               blue(color-background-highlight),
-                                               green(color-background-highlight),
-                                               0),
-                                          color-background) i
+        background-image linear-gradient(transparent, color-background) i    
 
 .sunken-menu-item
+    border-color color-background
+    
     &.selected
-        background-color highlight
+        background-color()
+        border-color color-background-highlight-extra-less
         color emphasized
 
         &:after
             background-color orange
 
-.sunken-menu-separator
-    background-image: radial-gradient(farthest-side at left top,
-                                      color-background-highlight,
-                                      rgba(red(color-background-highlight),
-                                           blue(color-background-highlight),
-                                           green(color-background-highlight),
-                                           0))
+.sunken-menu-separator:before
+    background-image linear-gradient(to right, color-background-highlight 70%, color-background 100%) i
 
 // ** states
 .state
