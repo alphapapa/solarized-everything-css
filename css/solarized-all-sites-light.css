@@ -680,6 +680,42 @@ div.crp {
 #hnmain > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
   background-color: #cb4b16 !important;
 }
+tr.Even {
+  background-color: #eee8d5 !important;
+}
+.BigQuote {
+  background-color: #eee8d5 !important;
+  color: #cb4b16 !important;
+}
+.Cat2HL {
+  background-color: #e9e1c8 !important;
+}
+.Cat3HL {
+  background-color: #ebe4cf !important;
+}
+.FeatureByline {
+  background-color: #eee8d5 !important;
+  border: none !important;
+}
+.Headline {
+  background-color: #e9e1c8 !important;
+}
+.QuotedText {
+  color: #6c71c4 !important;
+}
+DIV.CommentBox {
+  border-color: #eee8d5 !important;
+}
+DIV.CommentBox P.CommentTitle {
+  background-color: #e9e1c8 !important;
+}
+#menu,
+.topnav-container {
+  background-color: #eee8d5 !important;
+}
+.navmenu ul {
+  background-color: #eee8d5 !important;
+}
 body * {
   border-color: #e9e1c8 !important;
 }
