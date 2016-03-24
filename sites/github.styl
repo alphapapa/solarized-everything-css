@@ -367,7 +367,7 @@
         color blue i
     
 .header
-    background-color highlight
+    background-color color-background-highlight-extra-less-less
     border-bottom-color color-background-highlight-extra i
 
     a
@@ -375,6 +375,19 @@
 
 .lang
     color emphasized
+
+// *** New "tabs on top" header
+
+.pagehead.repohead
+    background-color highlight
+
+.reponav-item
+    background-color highlight
+    border-color transparent
+
+    &.selected
+         background-color()
+         border-color red color-background-highlight-extra-less transparent
 
 // ** js
 .js-directory-link
