@@ -70,11 +70,10 @@ pre {
   background-color: #586e75 !important;
 }
 .file-wrap {
-  background-color: #002b36 !important;
   color: #839496 !important;
 }
-.file-wrap * {
-  background-color: #002b36 !important;
+* {
+  background-color: transparent !important;
 }
 .filter-item {
   color: #839496 !important;
@@ -369,11 +368,16 @@ pre {
   fill: #b58900 !important;
 }
 .files * {
-  color: #586e75 !important;
+  color: #839496 !important;
 }
-.files tbody tr * {
-  background-color: #002b36 !important;
+.files tbody tr {
   border-color: #073642 !important;
+}
+.files tbody tr:nth-child(even) {
+  background-color: #00323f !important;
+}
+.files tbody tr:nth-child(odd) {
+  background-color: #002b36 !important;
 }
 .files tbody tr:hover * {
   background-color: #094352 !important;
@@ -393,7 +397,7 @@ pre {
   color: #268bd2 !important;
 }
 .header {
-  background-color: #073642 !important;
+  background-color: #083c4a !important;
   border-bottom-color: #586e75 !important;
 }
 .header a {
@@ -401,6 +405,17 @@ pre {
 }
 .lang {
   color: #93a1a1 !important;
+}
+.pagehead.repohead {
+  background-color: #073642 !important;
+}
+.reponav-item {
+  background-color: #073642 !important;
+  border-color: transparent !important;
+}
+.reponav-item.selected {
+  background-color: #002b36 !important;
+  border-color: #dc322f #094352 transparent !important;
 }
 .js-directory-link {
   color: #268bd2 !important;
