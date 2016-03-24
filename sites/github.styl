@@ -37,11 +37,10 @@
 .file-info-divider
     background-color highlight-extra
 .file-wrap
-    background-color()
     color()
 
     *
-        background-color()
+        background-color transparent
 
 .filter-item
     &.selected
@@ -339,12 +338,15 @@
 // ** files
 .files
     *
-        color comment
+        color()
 
     tbody
-        tr *
-            background-color()
+        tr
             border-color color-background-highlight
+        tr:nth-child(even)
+            background-color color-background-highlight-tad-extra
+        tr:nth-child(odd)
+            background-color()
 
         tr:hover *
             background-color color-background-highlight-extra-less
