@@ -72,7 +72,7 @@ pre {
 .file-wrap {
   color: #657b83 !important;
 }
-* {
+.file-wrap * {
   background-color: transparent !important;
 }
 .filter-item {
@@ -426,8 +426,8 @@ pre {
   border-color: #93a1a1 !important;
 }
 a.label {
-  background-color: #eee8d5 !important;
-  color: #586e75 !important;
+  color: #000 !important;
+  filter: opacity(75%);
 }
 .notifications-list a {
   color: #657b83 !important;
@@ -601,12 +601,13 @@ a.label {
   border-color: #839496 !important;
   color: #586e75 !important;
 }
-.table-list * {
+.table-list tr,
+.table-list li {
   background-color: #fdf6e3 !important;
 }
-.table-list *:hover,
-.table-list *:hover * {
-  background-color: #eee8d5 !important;
+.table-list tr:hover,
+.table-list li:hover {
+  background-color: #e9e1c8 !important;
 }
 .table-list-header {
   background-color: #eee8d5 !important;
