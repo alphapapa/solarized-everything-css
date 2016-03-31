@@ -24,11 +24,21 @@ pre {
   background-color: #073642 !important;
   color: #839496 !important;
 }
+.news .alert .pull-info {
+  background-color: #083c4a !important;
+}
 .breadcrumb .repo-root.js-repo-root a {
   color: #268bd2 !important;
 }
 .breadcrumb strong.final-path {
   color: #839496 !important;
+}
+button.ajax-pagination-btn {
+  background-color: #073642 !important;
+  color: #93a1a1 !important;
+}
+button.ajax-pagination-btn:hover {
+  background-color: #586e75 !important;
 }
 .contrib-number {
   color: #93a1a1 !important;
@@ -67,6 +77,9 @@ pre {
 }
 .file-wrap * {
   background-color: transparent !important;
+}
+.filter-bar {
+  background-color: #083c4a !important;
 }
 .filter-item {
   color: #839496 !important;
@@ -118,11 +131,11 @@ pre {
   background-color: #586e75 !important;
   color: #93a1a1 !important;
 }
-.subnav-item.selected {
-  background-color: #073642 !important;
-}
 .stats-switcher-wrapper {
   background-color: #002b36 !important;
+}
+.stats-switcher-wrapper .numbers-summary li a {
+  color: #839496 !important;
 }
 .table-list-header-toggle .btn-link {
   color: #586e75 !important;
@@ -246,6 +259,15 @@ pre {
 }
 .build-status-item .build-status-details {
   color: #268bd2 !important;
+}
+.capped-card h3 {
+  background-color: #083c4a !important;
+}
+.capped-card h3 a {
+  color: #93a1a1 !important;
+}
+.capped-card-content {
+  background-color: #002b36 !important;
 }
 .commit,
 .commit-meta,
@@ -384,7 +406,8 @@ pre {
 .issues-listing .btn-primary {
   background-color: #859900 !important;
   background-image: linear-gradient(#859900, #424d00) !important;
-  color: #93a1a1 !important;
+  color: #000 !important;
+  filter: opacity(62.5%);
 }
 .entry-title a {
   color: #268bd2 !important;
@@ -405,10 +428,17 @@ pre {
 .reponav-item {
   background-color: #073642 !important;
   border-color: transparent !important;
+  color: #839496 !important;
+}
+.reponav-item:visited {
+  color: #839496 !important;
 }
 .reponav-item.selected {
   background-color: #002b36 !important;
   border-color: #dc322f #094352 transparent !important;
+}
+.site-footer-links * {
+  color: #839496 !important;
 }
 .js-directory-link {
   color: #268bd2 !important;
@@ -575,6 +605,18 @@ a.label {
 .state-open {
   background-color: #859900 !important;
 }
+.subnav-item {
+  color: #839496 !important;
+}
+.subnav-item:hover {
+  background-color: #083c4a !important;
+}
+.subnav-item:visited {
+  color: #839496 !important;
+}
+.subnav-item.selected {
+  background-color: #073642 !important;
+}
 .subnav-links a:hover {
   background-color: #073642 !important;
 }
@@ -616,4 +658,10 @@ a.label {
 }
 .timeline-commits .commit-meta .commit-id {
   color: #586e75 !important;
+}
+.graphs .area {
+  fill: #859900;
+}
+.viz {
+  background-color: #083c4a !important;
 }
