@@ -107,9 +107,6 @@ button.ajax-pagination-btn
     background-color highlight-extra
     color emphasized
 
-.subnav-item.selected
-    background-color highlight
-
 .stats-switcher-wrapper
     background-color()
 
@@ -607,6 +604,18 @@ a.label
 
 
 // ** subnav
+
+.subnav-item
+
+    color()
+
+    &:hover
+        background-color color-background-highlight-extra-less-less
+    &:visited
+        color()
+    &.selected
+        background-color highlight
+
 .subnav-links
     a
         &:hover
