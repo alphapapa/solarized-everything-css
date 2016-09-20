@@ -575,6 +575,9 @@ a.label {
 .pagehead.repohead {
   background-color: #073642 !important;
 }
+.repohead-details-container a {
+  color: #839496 !important;
+}
 .select-menu-modal {
   border-color: #839496 !important;
 }
