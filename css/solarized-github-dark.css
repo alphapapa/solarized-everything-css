@@ -227,6 +227,10 @@ button.ajax-pagination-btn:hover {
   color: #859900 !important;
   font-weight: bold !important;
 }
+.border-bottom,
+.border-top {
+  border-color: #073642 !important;
+}
 .boxed-group * {
   border-color: #586e75 !important;
 }
@@ -685,6 +689,7 @@ a.label {
 }
 .user-profile-sticky-bar:after {
   background-color: #073642 !important;
+  border-color: #657b83 !important;
 }
 .graphs .area {
   fill: #859900;
