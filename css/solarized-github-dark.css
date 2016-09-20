@@ -24,6 +24,9 @@ pre {
   background-color: #073642 !important;
   color: #839496 !important;
 }
+* {
+  border-color: #073642 !important;
+}
 .news .alert .pull-info {
   background-color: #083c4a !important;
 }

@@ -31,6 +31,9 @@ pre {
   background-color: #fdf6e3 !important;
   color: #657b83 !important;
 }
+* {
+  border-color: #eee8d5 !important;
+}
 .news .alert .pull-info {
   background-color: #ebe4cf !important;
 }
