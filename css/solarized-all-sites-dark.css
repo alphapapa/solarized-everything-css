@@ -429,18 +429,22 @@ button.ajax-pagination-btn:hover {
 .lang {
   color: #93a1a1 !important;
 }
-.pagehead.repohead {
+.pagehead.repohead,
+.pagehead.orghead {
   background-color: #073642 !important;
 }
-.reponav-item {
+.reponav-item,
+.pagehead-tabs-item {
   background-color: #073642 !important;
   border-color: transparent !important;
   color: #839496 !important;
 }
-.reponav-item:visited {
+.reponav-item:visited,
+.pagehead-tabs-item:visited {
   color: #839496 !important;
 }
-.reponav-item.selected {
+.reponav-item.selected,
+.pagehead-tabs-item.selected {
   background-color: #002b36 !important;
   border-color: #dc322f #094352 transparent !important;
 }
