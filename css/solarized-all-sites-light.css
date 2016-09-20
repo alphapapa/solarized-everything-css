@@ -432,10 +432,6 @@ button.ajax-pagination-btn:hover {
 .lang {
   color: #586e75 !important;
 }
-.pagehead.repohead,
-.pagehead.orghead {
-  background-color: #eee8d5 !important;
-}
 .reponav-item,
 .pagehead-tabs-item {
   background-color: #eee8d5 !important;
@@ -501,6 +497,17 @@ a.label {
 .octicon-markdown {
   color: #93a1a1 !important;
 }
+.orghead {
+  background-color: #eee8d5 !important;
+  border-color: #839496 !important;
+  color: #586e75 !important;
+}
+.org-name {
+  color: #586e75 !important;
+}
+.pagehead.orghead {
+  background-color: #eee8d5 !important;
+}
 .outline-box-highlighted {
   background-color: #eee8d5 !important;
   color: #586e75 !important;
@@ -557,6 +564,9 @@ a.label {
 }
 .repository-meta .edit-repository-meta label {
   color: #657b83 !important;
+}
+.pagehead.repohead {
+  background-color: #eee8d5 !important;
 }
 .select-menu-modal {
   border-color: #657b83 !important;

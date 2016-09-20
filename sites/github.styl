@@ -414,10 +414,6 @@ button.ajax-pagination-btn
 
 // *** New "tabs on top" header
 
-.pagehead.repohead
-.pagehead.orghead
-    background-color highlight
-
 .reponav-item
 .pagehead-tabs-item
     background-color highlight
@@ -487,6 +483,19 @@ a.label
 .octicon-markdown
     color comment
 
+// ** org
+
+.orghead
+    background-color highlight
+    border-color()
+    color emphasized
+
+.org-name
+    color emphasized
+
+.pagehead.orghead
+    background-color highlight
+
 // ** outline-box
 
 .outline-box-highlighted
@@ -543,6 +552,9 @@ a.label
     .edit-repository-meta
         label
             color()
+
+.pagehead.repohead
+    background-color highlight
 
 // ** select-menu
 .select-menu-modal
