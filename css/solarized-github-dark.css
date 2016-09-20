@@ -493,6 +493,7 @@ a.label {
 .orghead {
   background-color: #073642 !important;
   border-color: #657b83 !important;
+  border-bottom: 0px !important;
   color: #93a1a1 !important;
 }
 .org-name {
