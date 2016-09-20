@@ -670,6 +670,12 @@ a.label {
 .timeline-commits .commit-meta .commit-id {
   color: #93a1a1 !important;
 }
+.user-profile-nav {
+  background-color: #eee8d5 !important;
+}
+.user-profile-sticky-bar:after {
+  background-color: #eee8d5 !important;
+}
 .graphs .area {
   fill: #859900;
 }

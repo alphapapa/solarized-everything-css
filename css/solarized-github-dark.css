@@ -663,6 +663,12 @@ a.label {
 .timeline-commits .commit-meta .commit-id {
   color: #586e75 !important;
 }
+.user-profile-nav {
+  background-color: #073642 !important;
+}
+.user-profile-sticky-bar:after {
+  background-color: #073642 !important;
+}
 .graphs .area {
   fill: #859900;
 }
