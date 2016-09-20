@@ -122,6 +122,9 @@ button.ajax-pagination-btn:hover {
 .progress-bar {
   background-color: #586e75 !important;
 }
+.simple-box {
+  background-color: #073642 !important;
+}
 .social-count {
   background-color: #073642 !important;
   border-color: #586e75 !important;
