@@ -50,6 +50,12 @@ button.ajax-pagination-btn {
 button.ajax-pagination-btn:hover {
   background-color: #586e75 !important;
 }
+.comment-reactions .btn-link {
+  color: #839496 !important;
+}
+.comment-reactions .user-has-reacted {
+  background-color: #073642 !important;
+}
 .contrib-number {
   color: #93a1a1 !important;
 }
