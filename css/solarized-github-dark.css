@@ -30,6 +30,9 @@ pre {
 .news .alert .pull-info {
   background-color: #083c4a !important;
 }
+.bg-white {
+  background-color: #002b36 !important;
+}
 .breadcrumb .repo-root.js-repo-root a {
   color: #268bd2 !important;
 }
