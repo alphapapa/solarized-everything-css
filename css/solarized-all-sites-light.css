@@ -40,6 +40,9 @@ pre {
 .bg-white {
   background-color: #fdf6e3 !important;
 }
+.border {
+  border-color: #839496 !important;
+}
 .breadcrumb .repo-root.js-repo-root a {
   color: #268bd2 !important;
 }
