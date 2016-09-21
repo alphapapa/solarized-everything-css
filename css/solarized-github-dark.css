@@ -702,6 +702,13 @@ a.label {
 .timeline-commits .commit-meta .commit-id {
   color: #586e75 !important;
 }
+.underline-nav-item {
+  color: #839496 !important;
+}
+.underline-nav-item.selected {
+  border-bottom-color: #dc322f !important;
+  color: #839496 !important;
+}
 .user-profile-nav {
   background-color: #073642 !important;
   border-color: #657b83 !important;
