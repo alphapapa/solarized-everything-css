@@ -134,6 +134,9 @@ button.ajax-pagination-btn:hover {
 .overall-summary {
   border-color: #93a1a1 !important;
 }
+.pinned-repo-item.border {
+  border-color: #93a1a1 !important;
+}
 .progress-bar {
   background-color: #93a1a1 !important;
 }
