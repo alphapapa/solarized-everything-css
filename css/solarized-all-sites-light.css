@@ -336,7 +336,7 @@ button.ajax-pagination-btn:hover {
 .commit-tease,
 .commit-title {
   background-color: rgba(0,0,142,0.2) !important;
-  border-color: #586e75 #586e75 #93a1a1 #586e75 !important;
+  border: none !important;
 }
 .commit-branches * *,
 .commit-tease *,
