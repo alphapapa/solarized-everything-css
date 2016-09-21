@@ -701,6 +701,7 @@ a.label {
 }
 .user-profile-nav {
   background-color: #eee8d5 !important;
+  border-color: #839496 !important;
 }
 .user-profile-sticky-bar:after {
   background-color: #eee8d5 !important;
