@@ -364,6 +364,17 @@ a.filter-item:hover,
   background-color: transparent !important;
   color: #839496 !important;
 }
+.commit.table-list-item {
+  border-color: #073642 !important;
+}
+.commit-meta.commit-author-section {
+  background-color: transparent !important;
+  color: #839496 !important;
+}
+.table-list-cell .commit-title {
+  background-color: transparent !important;
+  color: #839496 !important;
+}
 .completeness-indicator-success {
   background-color: #859900 !important;
 }
