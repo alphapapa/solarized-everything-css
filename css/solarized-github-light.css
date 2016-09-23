@@ -672,10 +672,12 @@ a.label {
 .right .tabnav-extra {
   color: #93a1a1 !important;
 }
+a.tabnav-tab,
 .tabnav-tab {
   border-color: transparent !important;
   color: #93a1a1 !important;
 }
+a.tabnav-tab.selected,
 .tabnav-tab.selected {
   background-color: #fdf6e3 !important;
   background-image: linear-gradient(#eee8d5, #fdf6e3) !important;
