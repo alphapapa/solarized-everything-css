@@ -103,13 +103,16 @@ button.ajax-pagination-btn:hover {
 .filter-bar {
   background-color: #083c4a !important;
 }
+a.filter-item,
 .filter-item {
   color: #839496 !important;
 }
+a.filter-item.selected,
 .filter-item.selected {
   background-color: #073642 !important;
   color: #93a1a1 !important;
 }
+a.filter-item:hover,
 .filter-item:hover {
   background-color: #586e75 !important;
   color: #93a1a1 !important;
