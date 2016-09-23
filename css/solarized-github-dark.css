@@ -117,6 +117,7 @@ a.filter-item:hover,
 .gh-header-number {
   color: #586e75 !important;
 }
+.ellipsis-expander,
 .hidden-text-expander a {
   background-color: #073642 !important;
 }

@@ -124,6 +124,7 @@ a.filter-item:hover,
 .gh-header-number {
   color: #93a1a1 !important;
 }
+.ellipsis-expander,
 .hidden-text-expander a {
   background-color: #eee8d5 !important;
 }
