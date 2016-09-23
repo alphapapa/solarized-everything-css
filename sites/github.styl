@@ -491,13 +491,13 @@ a.label
     color base1
 
     &.type-icon-state-closed
-        color red
+        color transparentify(red, color-background, 0.65)
 
     &.type-icon-state-merged
         color violet
 
     &.type-icon-state-open
-        color green
+        color transparentify(green, color-background, 0.65)
 
 .octicon-check
     color white

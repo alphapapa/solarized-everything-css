@@ -499,7 +499,7 @@ a.label {
 }
 .octicon.type-icon-state-closed,
 .octicon-repo.type-icon-state-closed {
-  color: #dc322f !important;
+  color: rgba(202,0,0,0.65) !important;
 }
 .octicon.type-icon-state-merged,
 .octicon-repo.type-icon-state-merged {
@@ -507,7 +507,7 @@ a.label {
 }
 .octicon.type-icon-state-open,
 .octicon-repo.type-icon-state-open {
-  color: #859900 !important;
+  color: rgba(68,103,0,0.65) !important;
 }
 .octicon-check {
   color: #fff !important;
