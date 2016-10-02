@@ -600,6 +600,10 @@ a.label {
 .markdown-body table * hr {
   background-color: #586e75 !important;
 }
+.markdown-body img,
+.markdown-body table * img {
+  background-color: #002b36 !important;
+}
 .repository-description {
   color: #839496 !important;
 }
