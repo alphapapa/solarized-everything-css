@@ -771,6 +771,9 @@ a.tabnav-tab.selected,
 .graphs .area {
   fill: #859900;
 }
+.summary-stats li .num {
+  color: #93a1a1 !important;
+}
 .viz {
   background-color: #083c4a !important;
 }
