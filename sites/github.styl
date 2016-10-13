@@ -241,7 +241,7 @@ a.filter-item
         color()
 
     > h3
-        background-color highlight
+        background-color color-background-highlight-extra-less
         color emphasized
 
 .boxed-group-inner
@@ -279,13 +279,24 @@ a.filter-item
 .capped-card
 
     h3
-        background-color color-background-highlight-extra-less-less
+        background-color color-background-highlight-extra-less
 
         a
             color emphasized
 
 .capped-card-content
     background-color()
+
+// ** capped-list
+
+.capped-list
+
+    th
+        background-color color-background-highlight-extra-less-less
+        color emphasized
+
+    tr:nth-child(2n)
+        background-color highlight
 
 // ** commit
 .commit

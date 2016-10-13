@@ -265,7 +265,7 @@ a.filter-item:hover,
   color: #839496 !important;
 }
 .boxed-group > h3 {
-  background-color: #073642 !important;
+  background-color: #094352 !important;
   color: #93a1a1 !important;
 }
 .boxed-group-inner {
@@ -297,13 +297,20 @@ a.filter-item:hover,
   color: #268bd2 !important;
 }
 .capped-card h3 {
-  background-color: #083c4a !important;
+  background-color: #094352 !important;
 }
 .capped-card h3 a {
   color: #93a1a1 !important;
 }
 .capped-card-content {
   background-color: #002b36 !important;
+}
+.capped-list th {
+  background-color: #083c4a !important;
+  color: #93a1a1 !important;
+}
+.capped-list tr:nth-child(2n) {
+  background-color: #073642 !important;
 }
 .commit,
 .commit-meta,
@@ -351,13 +358,13 @@ code.commit-sha .user {
 }
 div.commit-branches svg.octicon.octicon-git-branch,
 div.commit.full-commit p.commit-title,
-ul.branches-list {
+qul.branches-list {
   background-color: #073642 !important;
   color: #93a1a1 !important;
 }
 div.commit-branches svg.octicon.octicon-git-branch *,
 div.commit.full-commit p.commit-title *,
-ul.branches-list * {
+qul.branches-list * {
   background-color: #073642 !important;
   color: #93a1a1 !important;
 }
