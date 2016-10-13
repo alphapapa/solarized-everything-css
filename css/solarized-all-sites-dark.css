@@ -604,6 +604,12 @@ a.label {
 .pr-toolbar {
   background-color: #002b36 !important;
 }
+.review-thread-reply {
+  background-color: #073642 !important;
+}
+.review-thread-reply .inline-comment-form {
+  background-color: #002b36 !important;
+}
 #readme .plain {
   background-color: #002b36 !important;
 }
