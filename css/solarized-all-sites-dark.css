@@ -329,11 +329,13 @@ a.filter-item:hover,
 .commit-meta .sha-block .sha {
   color: #839496 !important;
 }
-.commit-ref {
+.commit-ref,
+code.commit-sha {
   background-color: #073642 !important;
   color: #93a1a1 !important;
 }
-.commit-ref .user {
+.commit-ref .user,
+code.commit-sha .user {
   color: #2aa198 !important;
 }
 .commit-branches *,
