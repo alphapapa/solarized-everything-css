@@ -349,13 +349,13 @@ code.commit-sha .user {
 .commit-title * {
   color: #586e75 !important;
 }
-div.commit-branches svg.octicon.octicon-git-branch,
+div.commit-branches,
 div.commit.full-commit p.commit-title,
 qul.branches-list {
   background-color: #eee8d5 !important;
   color: #586e75 !important;
 }
-div.commit-branches svg.octicon.octicon-git-branch *,
+div.commit-branches *,
 div.commit.full-commit p.commit-title *,
 qul.branches-list * {
   background-color: #eee8d5 !important;
