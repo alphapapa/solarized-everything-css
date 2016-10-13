@@ -342,6 +342,18 @@ code.commit-sha .user {
 .commit-title * {
   color: #93a1a1 !important;
 }
+div.commit-branches svg.octicon.octicon-git-branch,
+div.commit.full-commit p.commit-title,
+ul.branches-list {
+  background-color: #073642 !important;
+  color: #93a1a1 !important;
+}
+div.commit-branches svg.octicon.octicon-git-branch *,
+div.commit.full-commit p.commit-title *,
+ul.branches-list * {
+  background-color: #073642 !important;
+  color: #93a1a1 !important;
+}
 .commit-meta {
   background-color: #073642 !important;
   color: #839496 !important;
