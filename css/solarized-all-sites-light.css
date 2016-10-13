@@ -577,6 +577,12 @@ a.label {
   background-color: #93a1a1 !important;
   color: #fdf6e3 !important;
 }
+.diffbar {
+  background-color: #fdf6e3 !important;
+}
+.pr-toolbar {
+  background-color: #fdf6e3 !important;
+}
 #readme .plain {
   background-color: #fdf6e3 !important;
 }
