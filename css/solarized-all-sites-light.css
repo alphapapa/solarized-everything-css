@@ -356,6 +356,9 @@ code.commit-sha .user {
 .commit-title * {
   color: #586e75 !important;
 }
+.commit-tease-contributors {
+  background-color: #eee8d5 !important;
+}
 div.commit-branches,
 div.commit.full-commit p.commit-title,
 qul.branches-list {
