@@ -403,6 +403,10 @@ qul.branches-list * {
 .completeness-indicator-success {
   background-color: #859900 !important;
 }
+.completeness-indicator-problem {
+  background-color: #b58900 !important;
+  color: #fff !important;
+}
 .copyable-terminal {
   background-color: #eee8d5 !important;
 }
