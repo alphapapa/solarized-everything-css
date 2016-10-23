@@ -771,6 +771,9 @@ a.tabnav-tab.selected,
 .text-pending .octicon-primitive-dot {
   color: #b58900 !important;
 }
+.text-red {
+  color: #dc322f !important;
+}
 .timeline-commits .commit-meta {
   background-color: #fdf6e3 !important;
 }
