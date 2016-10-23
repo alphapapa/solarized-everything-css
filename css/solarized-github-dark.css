@@ -553,6 +553,7 @@ a.label {
 .octicon-repo.type-icon-state-open {
   color: rgba(205,212,0,0.65) !important;
 }
+.octicon-alert,
 .octicon-check {
   color: #fff !important;
 }
