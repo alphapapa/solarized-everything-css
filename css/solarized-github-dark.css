@@ -450,6 +450,17 @@ qul.branches-list * {
 .donut-chart > .pending {
   fill: #b58900 !important;
 }
+.dropdown-divider {
+  background-color: #657b83 !important;
+}
+.dropdown-item {
+  color: #839496 !important;
+}
+.dropdown-menu {
+  background-color: #094352 !important;
+  color: #93a1a1 !important;
+  border-color: #657b83 !important;
+}
 .files * {
   color: #839496 !important;
 }
