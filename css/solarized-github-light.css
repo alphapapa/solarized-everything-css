@@ -458,6 +458,10 @@ qul.branches-list * {
 .dropdown-item {
   color: #657b83 !important;
 }
+.dropdown-item:hover {
+  background-color: #93a1a1 !important;
+  color: #586e75 !important;
+}
 .dropdown-menu {
   background-color: #e9e1c8 !important;
   color: #586e75 !important;
