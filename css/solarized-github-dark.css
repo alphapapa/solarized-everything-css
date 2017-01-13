@@ -670,6 +670,10 @@ a.label {
 .pagehead.repohead {
   background-color: #073642 !important;
 }
+.repository-content .RecentBranches {
+  background-color: #073642 !important;
+  border-color: #657b83 !important;
+}
 .repohead-details-container a {
   color: #839496 !important;
 }
