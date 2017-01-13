@@ -62,6 +62,9 @@ button.ajax-pagination-btn:hover {
 .comment-reactions .user-has-reacted {
   background-color: #073642 !important;
 }
+.text-gray-dark {
+  color: #839496 !important;
+}
 .contrib-number {
   color: #93a1a1 !important;
 }
