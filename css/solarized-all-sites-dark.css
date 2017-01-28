@@ -62,6 +62,9 @@ button.ajax-pagination-btn:hover {
 .comment-reactions .user-has-reacted {
   background-color: #073642 !important;
 }
+.text-gray-dark {
+  color: #839496 !important;
+}
 .contrib-number {
   color: #93a1a1 !important;
 }
@@ -674,6 +677,10 @@ a.label {
 .pagehead.repohead {
   background-color: #073642 !important;
 }
+.repository-content .RecentBranches {
+  background-color: #073642 !important;
+  border-color: #657b83 !important;
+}
 .repohead-details-container a {
   color: #839496 !important;
 }
@@ -820,6 +827,20 @@ a.tabnav-tab.selected,
 }
 .viz {
   background-color: #083c4a !important;
+}
+.facebox-popup {
+  color: #839496 !important;
+  background-color: #002b36 !important;
+}
+.facebox-popup .octicon {
+  color: #fff !important;
+}
+.facebox-popup .owner-select-target {
+  color: #839496 !important;
+  background-color: #073642 !important;
+}
+.facebox-popup .owner-select-target:hover {
+  background-color: #586e75 !important;
 }
 .sfbgg {
   background-color: #073642 !important;

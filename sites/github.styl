@@ -41,6 +41,9 @@ button.ajax-pagination-btn
         background-color highlight
 
 
+.text-gray-dark
+    color()
+
 .contrib-number
     color emphasized
 
@@ -677,6 +680,10 @@ a.label
 .pagehead.repohead
     background-color highlight
 
+.repository-content .RecentBranches
+    background-color highlight
+    border-color()
+
 .repohead-details-container
     a
         color()
@@ -851,3 +858,19 @@ a.tabnav-tab
 
 .viz
     background-color color-background-highlight-extra-less-less
+
+// facebox (e.g. when forking)
+
+.facebox-popup
+    color()
+    background-color()
+
+    .octicon
+        color white
+
+    .owner-select-target
+        color()
+        background-color highlight
+
+        &:hover
+            background-color highlight-extra
