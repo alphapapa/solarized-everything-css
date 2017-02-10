@@ -836,8 +836,11 @@ a.tabnav-tab.selected,
   background-color: #586e75 !important;
 }
 a.link-gray-dark {
-  color: #62606b !important;
+  color: #839496 !important;
 }
 .commit-author-section {
-  color: #6b6b6b !important;
+  color: #839496 !important;
+}
+.text-gray-dark {
+  color: #839496 !important;
 }
