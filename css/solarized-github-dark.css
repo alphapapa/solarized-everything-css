@@ -835,3 +835,9 @@ a.tabnav-tab.selected,
 .facebox-popup .owner-select-target:hover {
   background-color: #586e75 !important;
 }
+a.link-gray-dark {
+  color: #62606b !important;
+}
+.commit-author-section {
+  color: #6b6b6b !important;
+}
