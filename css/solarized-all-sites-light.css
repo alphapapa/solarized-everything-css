@@ -37,6 +37,12 @@ pre {
 .news .alert .pull-info {
   background-color: #ebe4cf !important;
 }
+a.link-gray-dark {
+  color: #657b83 !important;
+}
+.text-gray-dark {
+  color: #657b83 !important;
+}
 .bg-white {
   background-color: #fdf6e3 !important;
 }
@@ -330,6 +336,9 @@ a.filter-item:hover,
   border-color: #93a1a1 !important;
 }
 .commit-author {
+  color: #657b83 !important;
+}
+.commit-author-section {
   color: #657b83 !important;
 }
 .commit-meta {
