@@ -1334,12 +1334,16 @@ pre code .typ {
 .top-footer-links a {
   color: #859900 !important;
 }
-.topbar {
+.so-header {
   background-color: #094352 !important;
   color: #93a1a1 !important;
 }
-.topbar a {
+.so-header a {
   color: #859900 !important;
+}
+.so-header .navigation .-list .-item :hover {
+  background-color: #859900 !important;
+  color: #fdf6e3 !important;
 }
 .topbar-dialog {
   background-color: #002b36 !important;
@@ -1359,10 +1363,6 @@ pre code .typ {
 }
 #header {
   background-color: #094352 !important;
-}
-#hmenus .nav ul li a {
-  background-color: #859900 !important;
-  color: #fdf6e3 !important;
 }
 #question-header .question-hyperlink {
   color: #93a1a1 !important;
@@ -1405,6 +1405,10 @@ div.answered-accepted .mini-counts {
 }
 #sidebar .question-hyperlink {
   color: #2aa198 !important;
+}
+.newuser {
+  background-color: #073642 !important;
+  color: #93a1a1 !important;
 }
 .label-key {
   color: #839496 !important;
