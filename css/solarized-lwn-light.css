@@ -31,6 +31,10 @@ tr.Even {
   background-color: #eee8d5 !important;
   color: #cb4b16 !important;
 }
+.Cat1HL {
+  background-color: #93a1a1 !important;
+  color: #586e75 !important;
+}
 .Cat2HL {
   background-color: #e9e1c8 !important;
 }
@@ -46,6 +50,16 @@ tr.Even {
 }
 .QuotedText {
   color: #6c71c4 !important;
+}
+DIV.GAByline {
+  background-color: #eee8d5 !important;
+  border: none !important;
+}
+table.OddEven tr:nth-child(even) {
+  background-color: #fcf3da !important;
+}
+table.OddEven tr:nth-child(odd) {
+  background-color: #fdf6e3 !important;
 }
 DIV.CommentBox {
   border-color: #eee8d5 !important;
