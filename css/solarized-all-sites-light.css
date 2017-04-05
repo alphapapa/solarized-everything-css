@@ -605,6 +605,10 @@ qul.branches-list * {
 .site-footer-links * {
   color: #657b83 !important;
 }
+.Box-row--focus-gray.navigation-focus {
+  background-color: #ebe4cf !important;
+  color: #586e75 !important;
+}
 .js-directory-link {
   color: #268bd2 !important;
 }
