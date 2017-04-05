@@ -806,6 +806,10 @@ a.tabnav-tab.selected,
 .timeline-commits .commit-meta .commit-id {
   color: #93a1a1 !important;
 }
+.topic-tag.topic-tag-link {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
 .underline-nav-item {
   color: #657b83 !important;
 }
