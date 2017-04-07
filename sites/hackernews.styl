@@ -1,31 +1,76 @@
+// ** Main
+
+a
+    color blue
+
+table
+    background-color()
+
 // ** Header
+
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1)
+
 #hnmain
-    > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1)
-        background-color orange
+    > tbody:nth-child(1)
+        > tr:nth-child(1)
+            > td:nth-child(1)
+                > table
+                    background-color orange
+            a
+                color black
 
-    a
-        color emphasized
+        > tr:nth-child(2)
+            background-color()
 
-// ** Articles        
+#hnmain > tbody:nth-child(1) > tr:nth-child(2)
+    background-color()
+
+// ** Articles
     .title
         a
             color()
 
-// ** Comments        
+a.storylink
+    color emphasized
+    font-weight bold
+
+.sitestr
+    color blue
+
+// ** Comments
+
 #hnmain
     > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1)
         background-color()
 
     .comhead
         color emphasized
-    
+
     .c00
         color()
 
+    a.hnuser
+        color yellow
+
+    span.age a
+        color comment
+
+// Dead comments
+
+.cdd
+    color transparentify(red, color-background, 0.65)
+
+// Quoted  (italics, when people use them)
+
+.comment i
+    color comment
+
+
 // ** Footer
+
 #hnmain
      > tbody:nth-child(1) > tr:nth-child(4)
-         background-color highlight
+         background-color()
 
          > td:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1)
              // Orange bar
