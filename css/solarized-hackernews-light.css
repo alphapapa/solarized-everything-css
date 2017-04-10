@@ -48,6 +48,9 @@ table {
 .title a {
   color: #657b83 !important;
 }
+.title a:visited {
+  color: #93a1a1 !important;
+}
 a.storylink {
   color: #586e75 !important;
   font-weight: bold;
