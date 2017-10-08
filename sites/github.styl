@@ -272,13 +272,36 @@ a.filter-item
 .branch-action-state-dirty
 .branch-action-state-unstable
 .branch-action-state-unknown
-    .branch-action-icon
+.branch-action-icon
         background-color yellow i
         color white i
 
+.text-shadow-light
+.branch-group-name
+.branch-summary
+    color color-text i
+    text-shadow none i
+
+.branch-a-b-count .meter
+    background-color yellow
+
+.more-branches
+.branch-group-heading
 .branch-infobar
+.branch-name
     border-color comment
     background-color highlight
+
+.State
+.State:visited
+.octoicon-git-pull-request
+    color color-background-highlight i
+.State--red
+    background-color red
+    color color-background i
+.State--green
+    background-color green
+    color color-background i
 
 // ** build
 .build-status-item
@@ -586,10 +609,13 @@ a.label
         color transparentify(green, color-background, 0.65)
 
 .octicon-alert
-.octicon-check
     color white
 .octicon-x
     color red
+.octicon-check
+    color green
+.octicon-primitive-dot
+    color yellow
 
 .octicon-clippy
     color emphasized
@@ -652,10 +678,14 @@ a.label
 .merge-status-item
     background-color color-background-highlight-extra-less
 
+.merge-message
+    background-color color-background-highlight-extra-less-less
+
 .pr-toolbar
     background-color()
 
 // *** Code reviews
+
 
 .review-thread-reply
     background-color highlight
