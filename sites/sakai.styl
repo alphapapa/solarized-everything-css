@@ -1,0 +1,53 @@
+// * generic.styl
+
+@require mixins
+
+// Generic rules for sites
+
+// ** HTML elements
+*
+    border-color()
+a
+    a()
+a:visited
+    a visited
+
+body
+    background-color()
+    color()
+
+html
+    // Apparently some people set the bgcolor for HTML, not BODY...
+    background-color()
+
+input
+textarea
+    background-color highlight
+    color()
+
+blockquote,
+pre
+    background-color highlight
+    color()
+
+
+#toolMenu
+    li
+        background-color ()
+.navPanel
+.navIntraTool
+    background-color ()
+
+.sakaiCopyrightInfo
+    color ()
+
+.listHier
+    th
+        background-color color-background-highlight-extra-less
+
+ul.makeMenu
+    background color-background-highlight-extra-less
+    border 1px solid color-background-highlight-extra-less !important
+
+tr.external
+    background-color color-background-highlight-extra-less
