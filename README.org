@@ -92,6 +92,10 @@ This is how the sheets ~require~ in this project:
 
 This way, the Solarized color values are loaded first, followed by the dark- or light-themed mappings of those color values to friendly names, after which those friendly names can be used in the sheets that actually style elements and pages.
 
+** Credits
+
++  Thanks to [[https://github.com/jgkamat][Jay Kamat]] for contributing the Sakai stylesheet and several fixes and improvements.
+
 ** License
 
 Really?  Come on, it's just some CSS.  Just have fun and share!
