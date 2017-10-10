@@ -58,6 +58,7 @@ pre {
 .navIntraTool {
   background-color: #002b36 !important;
 }
+.instruction,
 .sakaiCopyrightInfo {
   color: #839496 !important;
 }
@@ -65,7 +66,7 @@ pre {
   background-color: #094352 !important;
 }
 ul.makeMenu {
-  background: #094352;
+  background-color: #094352 !important;
   border: 1px solid #094352 !important;
 }
 tr.external {
