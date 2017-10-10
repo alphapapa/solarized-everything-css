@@ -98,9 +98,7 @@ pre {
 .news .alert .pull-info {
   background-color: #ebe4cf !important;
 }
-a.link-gray-dark {
-  color: #657b83 !important;
-}
+.link-gray-dark,
 .text-gray-dark {
   color: #657b83 !important;
 }
@@ -338,6 +336,10 @@ a.filter-item:hover,
   background-color: #e9e1c8 !important;
   color: #586e75 !important;
 }
+.more-repos {
+  background-color: #e9e1c8 !important;
+  box-shadow: inset 0 1px 0 #93a1a1 !important;
+}
 .boxed-group-inner {
   background-color: #fdf6e3 !important;
 }
@@ -351,15 +353,41 @@ a.filter-item:hover,
 .branch-action-state-clean .branch-action-icon {
   background-color: #859900 !important;
 }
-.branch-action-state-dirty .branch-action-icon,
-.branch-action-state-unstable .branch-action-icon,
-.branch-action-state-unknown .branch-action-icon {
+.branch-action-state-dirty,
+.branch-action-state-unstable,
+.branch-action-state-unknown,
+.branch-action-icon {
   background-color: #b58900 !important;
   color: #fff !important;
 }
-.branch-infobar {
+.text-shadow-light,
+.branch-group-name,
+.branch-summary {
+  color: #657b83 !important;
+  text-shadow: none !important;
+}
+.branch-a-b-count .meter {
+  background-color: #b58900 !important;
+}
+.more-branches,
+.branch-group-heading,
+.branch-infobar,
+.branch-name {
   border-color: #93a1a1 !important;
   background-color: #eee8d5 !important;
+}
+.State,
+.State:visited,
+.octoicon-git-pull-request {
+  color: #eee8d5 !important;
+}
+.State--red {
+  background-color: #dc322f !important;
+  color: #fdf6e3 !important;
+}
+.State--green {
+  background-color: #859900 !important;
+  color: #fdf6e3 !important;
 }
 .build-status-item {
   background-color: #e9e1c8 !important;
@@ -643,12 +671,17 @@ a.label {
 .octicon-repo.type-icon-state-open {
   color: rgba(68,103,0,0.65) !important;
 }
-.octicon-alert,
-.octicon-check {
+.octicon-alert {
   color: #fff !important;
 }
 .octicon-x {
   color: #dc322f !important;
+}
+.octicon-check {
+  color: #859900 !important;
+}
+.octicon-primitive-dot {
+  color: #b58900 !important;
 }
 .octicon-clippy {
   color: #586e75 !important;
@@ -700,11 +733,15 @@ a.label {
   background-color: #93a1a1 !important;
   color: #fdf6e3 !important;
 }
+.empty-cell,
 .diffbar {
   background-color: #fdf6e3 !important;
 }
 .merge-status-item {
   background-color: #e9e1c8 !important;
+}
+.merge-message {
+  background-color: #ebe4cf !important;
 }
 .pr-toolbar {
   background-color: #fdf6e3 !important;
@@ -741,6 +778,18 @@ a.label {
 .markdown-body img,
 .markdown-body table * img {
   background-color: #fdf6e3 !important;
+}
+.range-editor {
+  background-color: #eee8d5 !important;
+}
+.compare-pr-placeholder {
+  background-color: #ebe4cf !important;
+}
+ul.comparison-list > li.title {
+  background-color: #e9e1c8 !important;
+}
+ul.comparison-list {
+  background-color: #ebe4cf !important;
 }
 .repository-description {
   color: #657b83 !important;
