@@ -98,9 +98,7 @@ pre {
 .news .alert .pull-info {
   background-color: #083c4a !important;
 }
-a.link-gray-dark {
-  color: #839496 !important;
-}
+.link-gray-dark,
 .text-gray-dark {
   color: #839496 !important;
 }
@@ -338,6 +336,10 @@ a.filter-item:hover,
   background-color: #094352 !important;
   color: #93a1a1 !important;
 }
+.more-repos {
+  background-color: #094352 !important;
+  box-shadow: inset 0 1px 0 #586e75 !important;
+}
 .boxed-group-inner {
   background-color: #002b36 !important;
 }
@@ -357,9 +359,33 @@ a.filter-item:hover,
   background-color: #b58900 !important;
   color: #fff !important;
 }
-.branch-infobar {
+.text-shadow-light,
+.branch-group-name,
+.branch-summary {
+  color: #839496 !important;
+  text-shadow: none !important;
+}
+.branch-a-b-count .meter {
+  background-color: #b58900 !important;
+}
+.more-branches,
+.branch-group-heading,
+.branch-infobar,
+.branch-name {
   border-color: #586e75 !important;
   background-color: #073642 !important;
+}
+.State,
+.State:visited {
+  color: #fff !important;
+}
+.State--red {
+  background-color: #dc322f !important;
+  color: #002b36 !important;
+}
+.State--green {
+  background-color: #859900 !important;
+  color: #002b36 !important;
 }
 .build-status-item {
   background-color: #094352 !important;
@@ -643,12 +669,17 @@ a.label {
 .octicon-repo.type-icon-state-open {
   color: rgba(205,212,0,0.65) !important;
 }
-.octicon-alert,
-.octicon-check {
+.octicon-alert {
   color: #fff !important;
 }
 .octicon-x {
   color: #dc322f !important;
+}
+.octicon-check {
+  color: #859900 !important;
+}
+.octicon-primitive-dot {
+  color: #b58900 !important;
 }
 .octicon-clippy {
   color: #93a1a1 !important;
@@ -700,11 +731,15 @@ a.label {
   background-color: #586e75 !important;
   color: #002b36 !important;
 }
+.empty-cell,
 .diffbar {
   background-color: #002b36 !important;
 }
 .merge-status-item {
   background-color: #094352 !important;
+}
+.merge-message {
+  background-color: #083c4a !important;
 }
 .pr-toolbar {
   background-color: #002b36 !important;
@@ -714,6 +749,9 @@ a.label {
 }
 .review-thread-reply .inline-comment-form {
   background-color: #002b36 !important;
+}
+.octicon-git-merge {
+  color: #fff !important;
 }
 #readme .plain {
   background-color: #002b36 !important;
@@ -741,6 +779,18 @@ a.label {
 .markdown-body img,
 .markdown-body table * img {
   background-color: #002b36 !important;
+}
+.range-editor {
+  background-color: #073642 !important;
+}
+.compare-pr-placeholder {
+  background-color: #083c4a !important;
+}
+ul.comparison-list > li.title {
+  background-color: #094352 !important;
+}
+ul.comparison-list {
+  background-color: #083c4a !important;
 }
 .repository-description {
   color: #839496 !important;

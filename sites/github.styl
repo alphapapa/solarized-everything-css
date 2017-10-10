@@ -12,8 +12,7 @@
 
 // ** Misc
 
-a.link-gray-dark
-    color()
+.link-gray-dark
 .text-gray-dark
     color()
 
@@ -251,6 +250,9 @@ a.filter-item
     > h3
         background-color color-background-highlight-extra-less
         color emphasized
+.more-repos
+    background-color color-background-highlight-extra-less
+    box-shadow inset 0 1px 0 color-background-highlight-extra i
 
 .boxed-group-inner
     background-color()
@@ -273,9 +275,31 @@ a.filter-item
         background-color yellow i
         color white i
 
+.text-shadow-light
+.branch-group-name
+.branch-summary
+    color()
+    text-shadow none i
+
+.branch-a-b-count .meter
+    background-color yellow
+
+.more-branches
+.branch-group-heading
 .branch-infobar
+.branch-name
     border-color comment
     background-color highlight
+
+.State
+.State:visited
+    color white
+.State--red
+    background-color red
+    color color-background
+.State--green
+    background-color green
+    color color-background
 
 // ** build
 .build-status-item
@@ -583,10 +607,13 @@ a.label
         color transparentify(green, color-background, 0.65)
 
 .octicon-alert
-.octicon-check
     color white
 .octicon-x
     color red
+.octicon-check
+    color green
+.octicon-primitive-dot
+    color yellow
 
 .octicon-clippy
     color emphasized
@@ -643,22 +670,30 @@ a.label
 
 // ** Pull requests
 
+.empty-cell
 .diffbar
     background-color()
 
 .merge-status-item
     background-color color-background-highlight-extra-less
 
+.merge-message
+    background-color color-background-highlight-extra-less-less
+
 .pr-toolbar
     background-color()
 
 // *** Code reviews
+
 
 .review-thread-reply
     background-color highlight
 
     .inline-comment-form
         background-color()
+
+.octicon-git-merge
+    color white
 
 // ** readmes
 #readme .plain
@@ -680,6 +715,17 @@ a.label
 
     img
         background-color()
+
+.range-editor
+    background-color highlight
+
+.compare-pr-placeholder
+    background-color color-background-highlight-extra-less-less
+
+ul.comparison-list > li.title
+    background-color color-background-highlight-extra-less
+ul.comparison-list
+    background-color color-background-highlight-extra-less-less
 
 // ** repository
 .repository-description
