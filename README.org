@@ -62,6 +62,8 @@ Install the stylesheet of your choice according to your browser's method (e.g. u
   For [[http://planet.emacsen.org][Planet Emacsen]]
 - ~solarized-stackexchange-*.css~
   For StackExchange sites.  Not all sites are covered, but some of the main ones are.  Patches welcome.
+- ~solarized-sakai-*.css~
+  For sites hosted by [[https://sakaiproject.org/][sakai]], a popular course management program.
 
 ** Development                                                  :noexport_1:
 
@@ -93,4 +95,3 @@ This way, the Solarized color values are loaded first, followed by the dark- or 
 ** License
 
 Really?  Come on, it's just some CSS.  Just have fun and share!
-

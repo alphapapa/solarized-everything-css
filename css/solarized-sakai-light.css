@@ -1,0 +1,74 @@
+* {
+  border-color: #839496 !important;
+}
+a {
+  color: #268bd2 !important;
+}
+a:visited {
+  color: #6c71c4 !important;
+}
+body {
+  background-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+html {
+  background-color: #fdf6e3 !important;
+}
+input,
+textarea {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+blockquote,
+pre {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+* {
+  border-color: #839496 !important;
+}
+a {
+  color: #268bd2 !important;
+}
+a:visited {
+  color: #6c71c4 !important;
+}
+body {
+  background-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+html {
+  background-color: #fdf6e3 !important;
+}
+input,
+textarea {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+tr:hover,
+blockquote,
+pre {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+#toolMenu li {
+  background-color: #fdf6e3 !important;
+}
+.navPanel,
+.navIntraTool {
+  background-color: #fdf6e3 !important;
+}
+.instruction,
+.sakaiCopyrightInfo {
+  color: #657b83 !important;
+}
+.listHier th {
+  background-color: #e9e1c8 !important;
+}
+ul.makeMenu {
+  background-color: #e9e1c8 !important;
+  border: 1px solid #e9e1c8 !important;
+}
+tr.external {
+  background-color: #e9e1c8 !important;
+}
