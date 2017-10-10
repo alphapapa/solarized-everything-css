@@ -309,9 +309,8 @@ a.filter-item:hover,
   background-color: #073642 !important;
 }
 .State,
-.State:visited,
-.octoicon-git-pull-request {
-  color: #073642 !important;
+.State:visited {
+  color: #fff !important;
 }
 .State--red {
   background-color: #dc322f !important;
@@ -683,6 +682,9 @@ a.label {
 }
 .review-thread-reply .inline-comment-form {
   background-color: #002b36 !important;
+}
+.octicon-git-merge {
+  color: #fff !important;
 }
 #readme .plain {
   background-color: #002b36 !important;
