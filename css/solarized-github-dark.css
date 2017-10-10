@@ -285,10 +285,9 @@ a.filter-item:hover,
 .branch-action-state-clean .branch-action-icon {
   background-color: #859900 !important;
 }
-.branch-action-state-dirty,
-.branch-action-state-unstable,
-.branch-action-state-unknown,
-.branch-action-icon {
+.branch-action-state-dirty .branch-action-icon,
+.branch-action-state-unstable .branch-action-icon,
+.branch-action-state-unknown .branch-action-icon {
   background-color: #b58900 !important;
   color: #fff !important;
 }
