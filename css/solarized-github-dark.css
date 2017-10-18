@@ -535,11 +535,11 @@ qul.branches-list * {
 .entry-title a {
   color: #268bd2 !important;
 }
-.header {
+.Header {
   background-color: #083c4a !important;
   border-bottom-color: #586e75 !important;
 }
-.header a {
+.Header a {
   color: #93a1a1 !important;
 }
 .lang {
