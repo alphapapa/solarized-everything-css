@@ -522,6 +522,9 @@ qul.branches-list
     border-color color-background-highlight-extra
     color emphasized
 
+.btn:hover
+    background-color color-background-highlight-extra-less-less
+
 .btn-primary, .issues-listing .btn-primary
     // For some reason, the .issues-listing down below is overriding the
     // .btn-primary here unless I use .issues-listing here also
@@ -752,7 +755,6 @@ ul.comparison-list
     border-color color-text
 
     *
-        background-color()
         color()
 
 .select-menu-header
@@ -761,14 +763,20 @@ ul.comparison-list
     color emphasized
     text-shadow none i
 
-.select-menu-item:hover *
-.select-menu-item-icon:hover
+.select-menu-item
+    background-color()
+
 .select-menu-item.navigation-focus
+.select-menu-item.navigation-focus.selected
+.select-menu-item.navigation-focus.select-menu-action
+.select-menu-item.navigation-focus
+.select-menu-item-text.navigation-focus
+// .select-menu-item:hover *
+// .select-menu-item-icon:hover
+// .select-menu-item.navigation-focus
+// .select-menu-item-text
         background-color highlight-extra
         color emphasized
-
-.select-menu-item.selected
-    background-color highlight-extra
 
 // ** sidebar
 .repository-sidebar
