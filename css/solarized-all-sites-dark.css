@@ -593,6 +593,9 @@ qul.branches-list * {
   border-color: #586e75 !important;
   color: #93a1a1 !important;
 }
+.btn:hover {
+  background-color: #083c4a !important;
+}
 .btn-primary,
 .issues-listing .btn-primary {
   background-color: #859900 !important;
@@ -753,6 +756,13 @@ a.label {
 .octicon-git-merge {
   color: #fff !important;
 }
+.uploaded-files {
+  background-color: #002b36 !important;
+}
+.upload-progress {
+  background-color: #073642 !important;
+  box-shadow: 1px 0px 0px #073642 inset;
+}
 #readme .plain {
   background-color: #002b36 !important;
 }
@@ -779,6 +789,9 @@ a.label {
 .markdown-body img,
 .markdown-body table * img {
   background-color: #002b36 !important;
+}
+.task-list-item.hovered {
+  background-color: #073642 !important;
 }
 .range-editor {
   background-color: #073642 !important;
@@ -812,7 +825,6 @@ ul.comparison-list {
   border-color: #839496 !important;
 }
 .select-menu-modal * {
-  background-color: #002b36 !important;
   color: #839496 !important;
 }
 .select-menu-header,
@@ -821,14 +833,15 @@ ul.comparison-list {
   color: #93a1a1 !important;
   text-shadow: none !important;
 }
-.select-menu-item:hover *,
-.select-menu-item-icon:hover,
-.select-menu-item.navigation-focus {
+.select-menu-item {
+  background-color: #002b36 !important;
+}
+.select-menu-item.navigation-focus,
+.select-menu-item.navigation-focus.selected,
+.select-menu-item.navigation-focus.select-menu-action,
+.select-menu-item-text.navigation-focus {
   background-color: #586e75 !important;
   color: #93a1a1 !important;
-}
-.select-menu-item.selected {
-  background-color: #586e75 !important;
 }
 .repository-sidebar {
   background-color: #002b36 !important;
@@ -968,6 +981,12 @@ a.tabnav-tab.selected,
   background-color: #073642 !important;
 }
 .facebox-popup .owner-select-target:hover {
+  background-color: #586e75 !important;
+}
+.suggester {
+  background-color: #094352 !important;
+}
+.suggester li.navigation-focus {
   background-color: #586e75 !important;
 }
 .sfbgg {

@@ -522,6 +522,9 @@ qul.branches-list
     border-color color-background-highlight-extra
     color emphasized
 
+.btn:hover
+    background-color color-background-highlight-extra-less-less
+
 .btn-primary, .issues-listing .btn-primary
     // For some reason, the .issues-listing down below is overriding the
     // .btn-primary here unless I use .issues-listing here also
@@ -695,6 +698,14 @@ a.label
 .octicon-git-merge
     color white
 
+// ** releases
+.uploaded-files
+    background-color()
+
+.upload-progress
+    background-color highlight
+    box-shadow 1px 0px 0px color-background-highlight inset
+
 // ** readmes
 #readme .plain
     background-color()
@@ -715,6 +726,9 @@ a.label
 
     img
         background-color()
+
+.task-list-item.hovered
+    background-color color-background-highlight
 
 .range-editor
     background-color highlight
@@ -752,7 +766,6 @@ ul.comparison-list
     border-color color-text
 
     *
-        background-color()
         color()
 
 .select-menu-header
@@ -761,14 +774,16 @@ ul.comparison-list
     color emphasized
     text-shadow none i
 
-.select-menu-item:hover *
-.select-menu-item-icon:hover
+.select-menu-item
+    background-color()
+
 .select-menu-item.navigation-focus
+.select-menu-item.navigation-focus.selected
+.select-menu-item.navigation-focus.select-menu-action
+.select-menu-item.navigation-focus
+.select-menu-item-text.navigation-focus
         background-color highlight-extra
         color emphasized
-
-.select-menu-item.selected
-    background-color highlight-extra
 
 // ** sidebar
 .repository-sidebar
@@ -939,3 +954,10 @@ a.tabnav-tab
 
         &:hover
             background-color highlight-extra
+
+// ** suggester (emoji)
+.suggester
+    background-color color-background-highlight-extra-less
+
+    li.navigation-focus
+        background-color highlight-extra
