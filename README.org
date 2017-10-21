@@ -94,6 +94,7 @@ This way, the Solarized color values are loaded first, followed by the dark- or 
 
 ** Credits
 
++  Thanks to [[https://github.com/The-Compiler][Florian Bruhin]] for contributing the Reddit and DuckDuckGo sheets, as well as several fixes and improvements.
 +  Thanks to [[https://github.com/jgkamat][Jay Kamat]] for contributing the Sakai stylesheet and several fixes and improvements.
 
 ** License
