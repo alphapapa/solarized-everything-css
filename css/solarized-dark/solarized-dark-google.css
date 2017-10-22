@@ -1,0 +1,74 @@
+* {
+  border-color: #657b83 !important;
+}
+a {
+  color: #268bd2 !important;
+}
+a:visited {
+  color: #6c71c4 !important;
+}
+body {
+  background-color: #002b36 !important;
+  color: #839496 !important;
+}
+html {
+  background-color: #002b36 !important;
+}
+input,
+textarea {
+  background-color: #073642 !important;
+  color: #839496 !important;
+}
+blockquote,
+pre {
+  background-color: #073642 !important;
+  color: #839496 !important;
+}
+.sfbgg {
+  background-color: #073642 !important;
+}
+.sbib_a {
+  background: linear-gradient(to bottom, #073642, #002b36) !important;
+}
+input#lst-ib,
+#sb_ifc0.sbib_b,
+#gs_taif0 {
+  background: transparent !important;
+}
+#lst-ib,
+.sbsb_a {
+  background-color: #002b36 !important;
+}
+.kpbb {
+  background-image: linear-gradient(to bottom, #59a9e1, #268bd2) !important;
+}
+#hdtbSum {
+  background-color: #002b36 !important;
+}
+#hdtbMenus.hdtb-td-o {
+  background-color: #002b36 !important;
+}
+#hdtb-tls.hdtb-tl {
+  background-image: linear-gradient(to bottom, #002b36, #073642) !important;
+}
+#hdtb-tls.hdtb-tl.hdtb-tl-sel {
+  background-image: linear-gradient(to bottom, #073642, #002b36) !important;
+}
+#abar_button_opt.ab_button {
+  background: linear-gradient(to bottom, #002b36, #073642) !important;
+}
+#appbar {
+  background-color: #002b36 !important;
+}
+cite {
+  color: #859900 !important;
+}
+.ab_dropdown {
+  background-color: #002b36 !important;
+}
+div.crp {
+  background-color: #002b36 !important;
+}
+#fbar {
+  background-color: #073642 !important;
+}

@@ -18,6 +18,7 @@ css_dir = "css"
 common_deps = ["styl/index.styl", "styl/mixins.styl"]
 
 CSS = namedtuple("CSS", ['path', 'deps', 'theme', 'site'])
+Theme = namedtuple("Theme", ['name', 'styl_path', 'support_files'])
 
 # * Functions
 
@@ -28,7 +29,7 @@ def main():
 
     # Make directories first to avoid race condition
     for css in css_files:
-        dir = os.path.join(css_dir, css.theme)
+        dir = os.path.join(css_dir, css.theme.name)
         if not os.path.isdir(dir):
             os.makedirs(dir)
 
@@ -55,7 +56,7 @@ def stylus(css):
     output_file = css.path
 
     command = ["stylus", "--include", "styl",
-               "--import", "themes/%s.styl" % css.theme,
+               "--import", css.theme.styl_path,
                "--import", "styl",
                "-p", "sites/%s.styl" % css.site]
     result = subprocess.check_output(command)
@@ -67,7 +68,7 @@ def stylus(css):
 def list_css(themes, sites):
     "Return list of CSS files for THEMES and SITES."
 
-    return [CSS("%s/%s/%s.css" % (css_dir, theme, site),
+    return [CSS("%s/%s/%s-%s.css" % (css_dir, theme.name, theme.name, site),
                 dependencies(theme, site), theme, site)
             for theme in themes
             for site in sites]
@@ -75,8 +76,33 @@ def list_css(themes, sites):
 def themes():
     "Return list of themes."
 
-    for path, dirs, files in os.walk(themes_dir):
-        return [theme.replace(".styl", "") for theme in files]
+    theme_names = []
+    themes = []
+
+    for d in os.listdir(themes_dir):
+        theme_names.append(d)
+
+    for theme in theme_names:
+        support_files = []
+        variant_files = []
+        directory = os.path.join(themes_dir, theme)
+
+        for f in os.listdir(directory):
+            path = os.path.join(themes_dir, theme, f)
+            if f == "colors.styl":
+                support_files.append(path)
+            else:
+                variant_files.append({'variant': without_styl(f), 'path': path})
+
+        if len(variant_files) == 1:
+            # Only one variant: omit variant name from theme name
+            themes.append(Theme(theme, variant_files[0]['path'], support_files))
+        else:
+            # Multiple variants: include variant name in theme name
+            for f in variant_files:
+                themes.append(Theme("%s-%s" % (theme, f['variant']), f['path'], support_files))
+
+    return themes
 
 def sites():
     "Return list of sites."
@@ -88,7 +114,9 @@ def dependencies(theme, site):
     "Return list of dependency .styl files for THEME and SITE."
 
     deps = list(common_deps)
-    deps += ["themes/%s.styl" % theme, "sites/%s.styl" % site]
+    deps.append(theme.styl_path)
+    deps.extend(theme.support_files)
+    deps.append("sites/%s.styl" % site)
 
     if site == "all-sites":
         deps += ["sites/%s.styl" % s for s in sites()]
@@ -103,6 +131,9 @@ def mtime(path):
         return os.path.getmtime(path)
     else:
         return 0
+
+def without_styl(s):
+    return s.replace(".styl", "")
 
 # * Footer
 

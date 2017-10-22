@@ -1,0 +1,33 @@
+* {
+  border-color: #839496 !important;
+}
+a {
+  color: #268bd2 !important;
+}
+a:visited {
+  color: #6c71c4 !important;
+}
+body {
+  background-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+html {
+  background-color: #fdf6e3 !important;
+}
+input,
+textarea {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+blockquote,
+pre {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+.post-actions {
+  background-color: #eee8d5 !important;
+}
+.textarea-wrapper {
+  background-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}

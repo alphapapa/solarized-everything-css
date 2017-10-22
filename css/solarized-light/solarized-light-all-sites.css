@@ -1,0 +1,1649 @@
+* {
+  border-color: #839496 !important;
+}
+a {
+  color: #268bd2 !important;
+}
+a:visited {
+  color: #6c71c4 !important;
+}
+body {
+  background-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+html {
+  background-color: #fdf6e3 !important;
+}
+input,
+textarea {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+blockquote,
+pre {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+.post-actions {
+  background-color: #eee8d5 !important;
+}
+.textarea-wrapper {
+  background-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+.search--adv {
+  background-color: #eee8d5 !important;
+}
+.search__autocomplete > .acp-wrap {
+  background-color: #fdf6e3 !important;
+}
+.search__autocomplete > .acp-wrap > .acp--highlight {
+  background-color: #eee8d5 !important;
+  color: #073642 !important;
+}
+.search__autocomplete > .acp-wrap strong {
+  color: #073642 !important;
+}
+.site-wrapper > #header_wrapper {
+  background-color: #fdf6e3 !important;
+}
+.site-wrapper > #header_wrapper > #header {
+  background-color: #fdf6e3 !important;
+}
+.search--header {
+  background-color: #eee8d5 !important;
+}
+.zci {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+.tile--info {
+  background-color: #fdf6e3 !important;
+}
+.tile--info__expand {
+  background-color: #93a1a1 !important;
+}
+.tile--c {
+  background-color: #93a1a1 !important;
+  color: #073642 !important;
+}
+.module__text {
+  color: #657b83 !important;
+}
+.about-info-box__heading {
+  color: #586e75 !important;
+}
+.result.highlight {
+  background-color: #eee8d5 !important;
+}
+.result__snippet {
+  color: #657b83 !important;
+}
+.result__snippet b {
+  color: #586e75 !important;
+}
+.btn--top {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+.btn--top:hover {
+  background-color: #93a1a1 !important;
+}
+.result--sep--hr:before {
+  background-color: #93a1a1 !important;
+}
+* {
+  border-color: #eee8d5 !important;
+}
+.news .alert .pull-info {
+  background-color: #ebe4cf !important;
+}
+.link-gray-dark,
+.text-gray-dark {
+  color: #657b83 !important;
+}
+.bg-white {
+  background-color: #fdf6e3 !important;
+}
+.border {
+  border-color: #839496 !important;
+}
+.breadcrumb .repo-root.js-repo-root a {
+  color: #268bd2 !important;
+}
+.breadcrumb strong.final-path {
+  color: #657b83 !important;
+}
+button.ajax-pagination-btn {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+button.ajax-pagination-btn:hover {
+  background-color: #93a1a1 !important;
+}
+.comment-reactions .btn-link {
+  color: #657b83 !important;
+}
+.comment-reactions .user-has-reacted {
+  background-color: #eee8d5 !important;
+}
+.text-gray-dark {
+  color: #657b83 !important;
+}
+.contrib-number {
+  color: #586e75 !important;
+}
+.counter {
+  background-color: #e9e1c8 !important;
+  color: #586e75 !important;
+}
+.diffstat-bar {
+  color: #657b83 !important;
+}
+.file-header {
+  background-color: #eee8d5 !important;
+}
+.file-history-tease .participation {
+  background-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+.file-history-tease .participation .quickstat strong {
+  color: #657b83 !important;
+}
+.file-history-tease .participation a {
+  color: #93a1a1 !important;
+}
+.file-history-tease .author a {
+  color: #657b83 !important;
+}
+.file-history-tease-header {
+  background-color: #eee8d5 !important;
+}
+.file-info-divider {
+  background-color: #93a1a1 !important;
+}
+.file-wrap {
+  color: #657b83 !important;
+}
+.file-wrap * {
+  background-color: transparent !important;
+}
+.filter-bar {
+  background-color: #ebe4cf !important;
+}
+a.filter-item,
+.filter-item {
+  color: #657b83 !important;
+}
+a.filter-item.selected,
+.filter-item.selected {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+a.filter-item:hover,
+.filter-item:hover {
+  background-color: #93a1a1 !important;
+  color: #586e75 !important;
+}
+.flash {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+.gh-header-number {
+  color: #93a1a1 !important;
+}
+.ellipsis-expander,
+.hidden-text-expander a {
+  background-color: #eee8d5 !important;
+}
+.issue-meta {
+  color: #93a1a1 !important;
+}
+.issues-listing a {
+  color: #657b83 !important;
+}
+.muted-link {
+  color: #657b83 !important;
+}
+.new-user-avatar-cta {
+  background-color: #eee8d5 !important;
+  border-color: #93a1a1 !important;
+  color: #586e75 !important;
+}
+.overall-summary {
+  border-color: #93a1a1 !important;
+}
+.pinned-repo-item.border {
+  border-color: #93a1a1 !important;
+}
+.progress-bar {
+  background-color: #93a1a1 !important;
+}
+.simple-box {
+  background-color: #eee8d5 !important;
+}
+.social-count {
+  background-color: #eee8d5 !important;
+  border-color: #93a1a1 !important;
+  color: #586e75 !important;
+}
+.scope-badge {
+  background-color: #93a1a1 !important;
+  color: #586e75 !important;
+}
+.stats-switcher-wrapper {
+  background-color: #fdf6e3 !important;
+}
+.stats-switcher-wrapper .numbers-summary li a {
+  color: #657b83 !important;
+}
+.table-list-header-toggle .btn-link {
+  color: #93a1a1 !important;
+}
+.table-list-header-toggle .btn-link.selected {
+  color: #657b83 !important;
+}
+.text-emphasized {
+  color: #586e75 !important;
+}
+.text-diff-added {
+  color: #859900 !important;
+}
+.text-diff-deleted {
+  color: #dc322f !important;
+}
+.avatar,
+.timeline-comment-avatar {
+  filter: opacity(50%);
+}
+.blob-code {
+  background-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+.blob-code-addition {
+  background-color: rgba(232,255,77,0.1) !important;
+}
+.blob-code-addition .x {
+  background-color: #647300 !important;
+  color: #b1bec2 !important;
+}
+.blob-code-deletion {
+  background-color: rgba(220,50,47,0.2) !important;
+}
+.blob-code-deletion .x {
+  background-color: #721513 !important;
+  color: #b1bec2 !important;
+}
+.blob-code-hunk {
+  background-color: #eee8d5 !important;
+  border-color: #93a1a1 !important;
+}
+.blob-code-inner {
+  color: #657b83 !important;
+}
+.blob-num {
+  background-color: #fdf6e3 !important;
+  color: #93a1a1 !important;
+}
+.file {
+  color: #657b83 !important;
+}
+.form-control {
+  background-color: #eee8d5 !important;
+  border-color: #93a1a1 !important;
+}
+.pl-c {
+  color: #93a1a1 !important;
+}
+.pl-c1 {
+  color: #268bd2 !important;
+}
+.pl-e {
+  color: #b58900 !important;
+}
+.pl-en {
+  color: #268bd2 !important;
+}
+.pl-k {
+  color: #859900 !important;
+  font-weight: bold !important;
+}
+.pl-pds {
+  color: #2aa198 !important;
+}
+.pl-s {
+  color: #2aa198 !important;
+}
+.pl-smi {
+  color: #657b83 !important;
+}
+.pl-v {
+  color: #859900 !important;
+  font-weight: bold !important;
+}
+.border-bottom,
+.border-top {
+  border-color: #eee8d5 !important;
+}
+.boxed-group * {
+  border-color: #93a1a1 !important;
+}
+.boxed-group article {
+  background-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+.boxed-group > h3 {
+  background-color: #e9e1c8 !important;
+  color: #586e75 !important;
+}
+.more-repos {
+  background-color: #e9e1c8 !important;
+  box-shadow: inset 0 1px 0 #93a1a1 !important;
+}
+.boxed-group-inner {
+  background-color: #fdf6e3 !important;
+}
+.branch-action-body {
+  background-color: #eee8d5 !important;
+  border-color: #93a1a1 !important;
+}
+.branch-action-body div {
+  border-color: #93a1a1 !important;
+}
+.branch-action-state-clean .branch-action-icon {
+  background-color: #859900 !important;
+}
+.branch-action-state-dirty .branch-action-icon,
+.branch-action-state-unstable .branch-action-icon,
+.branch-action-state-unknown .branch-action-icon {
+  background-color: #b58900 !important;
+  color: #fff !important;
+}
+.text-shadow-light,
+.branch-group-name,
+.branch-summary {
+  color: #657b83 !important;
+  text-shadow: none !important;
+}
+.branch-a-b-count .meter {
+  background-color: #b58900 !important;
+}
+.more-branches,
+.branch-group-heading,
+.branch-infobar,
+.branch-name {
+  border-color: #93a1a1 !important;
+  background-color: #eee8d5 !important;
+}
+.State,
+.State:visited {
+  color: #fff !important;
+}
+.State--red {
+  background-color: #dc322f !important;
+  color: #fdf6e3 !important;
+}
+.State--green {
+  background-color: #859900 !important;
+  color: #fdf6e3 !important;
+}
+.build-status-item {
+  background-color: #e9e1c8 !important;
+  color: #586e75 !important;
+}
+.build-status-item .build-status-details {
+  color: #268bd2 !important;
+}
+.capped-card h3 {
+  background-color: #e9e1c8 !important;
+}
+.capped-card h3 a {
+  color: #586e75 !important;
+}
+.capped-card-content {
+  background-color: #fdf6e3 !important;
+}
+.capped-list th {
+  background-color: #ebe4cf !important;
+  color: #586e75 !important;
+}
+.capped-list tr:nth-child(2n) {
+  background-color: #eee8d5 !important;
+}
+.commit,
+.commit-meta,
+.commit-icon .octicon,
+.commit-group-title .octicon-git-commit {
+  background-color: #fdf6e3 !important;
+}
+.commit *,
+.commit-meta *,
+.commit-icon .octicon *,
+.commit-group-title .octicon-git-commit * {
+  border-color: #93a1a1 !important;
+}
+.commit-author {
+  color: #657b83 !important;
+}
+.commit-author-section {
+  color: #657b83 !important;
+}
+.commit-meta {
+  color: #93a1a1 !important;
+}
+.commit-meta .sha-block {
+  color: #93a1a1 !important;
+}
+.commit-meta .sha-block .sha {
+  color: #657b83 !important;
+}
+.commit-ref,
+code.commit-sha {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+.commit-ref .user,
+code.commit-sha .user {
+  color: #2aa198 !important;
+}
+.commit-branches *,
+.commit-tease,
+.commit-title {
+  background-color: rgba(0,0,142,0.2) !important;
+  border: none !important;
+}
+.commit-branches * *,
+.commit-tease *,
+.commit-title * {
+  color: #586e75 !important;
+}
+.commit-tease-contributors {
+  background-color: #eee8d5 !important;
+}
+div.commit-branches,
+div.commit.full-commit p.commit-title,
+qul.branches-list {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+div.commit-branches *,
+div.commit.full-commit p.commit-title *,
+qul.branches-list * {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+.commit-meta {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+.commits-listing:before {
+  background-color: #eee8d5 !important;
+}
+.full-commit {
+  background-color: #eee8d5 !important;
+  border-color: #93a1a1 !important;
+}
+.full-commit * {
+  text-shadow: none !important;
+}
+.commit-desc pre {
+  background-color: transparent !important;
+  color: #657b83 !important;
+}
+.commit.table-list-item {
+  border-color: #eee8d5 !important;
+}
+.commit-meta.commit-author-section {
+  background-color: transparent !important;
+  color: #657b83 !important;
+}
+.table-list-cell .commit-title {
+  background-color: transparent !important;
+  color: #657b83 !important;
+}
+.completeness-indicator-success {
+  background-color: #859900 !important;
+}
+.completeness-indicator-problem {
+  background-color: #b58900 !important;
+  color: #fff !important;
+}
+.copyable-terminal {
+  background-color: #eee8d5 !important;
+}
+.blankslate {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+.comment-form-head.tabnav {
+  background-color: #fdf6e3 !important;
+}
+.conversation-list-heading .inner {
+  background-color: #fdf6e3 !important;
+}
+.discussion-item-closed .discussion-item-icon {
+  background-color: #dc322f !important;
+  color: #586e75 !important;
+}
+.discussion-item-icon {
+  background-color: #93a1a1 !important;
+  color: #586e75 !important;
+}
+.discussion-item-icon.octicon {
+  color: #586e75 !important;
+}
+.discussion-timeline:before {
+  background-color: #839496 !important;
+}
+.discussion-timeline-actions {
+  background-color: #fdf6e3 !important;
+}
+.drag-and-drop {
+  background-color: #eee8d5 !important;
+}
+.new-discussion-timeline .closed-banner {
+  background-color: #839496 !important;
+  border-color: #fdf6e3 !important;
+}
+.timeline-comment {
+  background-color: #fdf6e3 !important;
+  border-color: #93a1a1 !important;
+}
+.timeline-comment-header {
+  background-color: #eee8d5 !important;
+}
+.timeline-comment-wrapper {
+  border-color: #fdf6e3 !important;
+}
+.donut-chart > .pending {
+  fill: #b58900 !important;
+}
+.dropdown-divider {
+  background-color: #839496 !important;
+}
+.dropdown-item {
+  color: #657b83 !important;
+}
+.dropdown-item:hover {
+  background-color: #93a1a1 !important;
+  color: #586e75 !important;
+}
+.dropdown-menu {
+  background-color: #e9e1c8 !important;
+  color: #586e75 !important;
+  border-color: #839496 !important;
+}
+.files * {
+  color: #657b83 !important;
+}
+.files tbody tr {
+  border-color: #eee8d5 !important;
+}
+.files tbody tr:nth-child(even) {
+  background-color: #fcf3da !important;
+}
+.files tbody tr:nth-child(odd) {
+  background-color: #fdf6e3 !important;
+}
+.files tbody tr:hover * {
+  background-color: #e9e1c8 !important;
+}
+.btn {
+  background-image: linear-gradient(to bottom, #eee8d5, #93a1a1) !important;
+  border-color: #93a1a1 !important;
+  color: #586e75 !important;
+}
+.btn:hover {
+  background-color: #ebe4cf !important;
+}
+.btn-primary,
+.issues-listing .btn-primary {
+  background-color: #859900 !important;
+  background-image: linear-gradient(#859900, #424d00) !important;
+  color: #000 !important;
+  filter: opacity(62.5%);
+}
+.entry-title a {
+  color: #268bd2 !important;
+}
+.Header {
+  background-color: #ebe4cf !important;
+  border-bottom-color: #93a1a1 !important;
+}
+.Header a {
+  color: #586e75 !important;
+}
+.lang {
+  color: #586e75 !important;
+}
+.reponav-item,
+.pagehead-tabs-item {
+  background-color: #eee8d5 !important;
+  border-color: transparent !important;
+  color: #657b83 !important;
+}
+.reponav-item:visited,
+.pagehead-tabs-item:visited {
+  color: #657b83 !important;
+}
+.reponav-item.selected,
+.pagehead-tabs-item.selected {
+  background-color: #fdf6e3 !important;
+  border-color: #dc322f #e9e1c8 transparent !important;
+}
+.site-footer-links * {
+  color: #657b83 !important;
+}
+.Box-row--focus-gray.navigation-focus {
+  background-color: #ebe4cf !important;
+  color: #586e75 !important;
+}
+.js-directory-link {
+  color: #268bd2 !important;
+}
+.js-site-search-form input,
+.js-chromeless-input-container {
+  background-color: #fdf6e3 !important;
+  border-color: #93a1a1 !important;
+}
+a.label {
+  color: #000 !important;
+  filter: opacity(75%);
+}
+.notifications-list a {
+  color: #657b83 !important;
+}
+.notifications-list li {
+  background-color: #fdf6e3 !important;
+}
+.octicon,
+.octicon-repo {
+  color: #93a1a1 !important;
+}
+.octicon.type-icon-state-closed,
+.octicon-repo.type-icon-state-closed {
+  color: rgba(202,0,0,0.65) !important;
+}
+.octicon.type-icon-state-merged,
+.octicon-repo.type-icon-state-merged {
+  color: #6c71c4 !important;
+}
+.octicon.type-icon-state-open,
+.octicon-repo.type-icon-state-open {
+  color: rgba(68,103,0,0.65) !important;
+}
+.octicon-alert {
+  color: #fff !important;
+}
+.octicon-x {
+  color: #dc322f !important;
+}
+.octicon-check {
+  color: #859900 !important;
+}
+.octicon-primitive-dot {
+  color: #b58900 !important;
+}
+.octicon-clippy {
+  color: #586e75 !important;
+}
+.octicon-git-pull-request,
+.octicon-diff {
+  color: #fff !important;
+}
+.octicon-markdown {
+  color: #93a1a1 !important;
+}
+.orghead {
+  background-color: #eee8d5 !important;
+  border-color: #839496 !important;
+  border-bottom: 0px !important;
+  color: #586e75 !important;
+}
+.org-name {
+  color: #586e75 !important;
+}
+.pagehead.orghead {
+  background-color: #eee8d5 !important;
+}
+.outline-box-highlighted {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+.pagination .current {
+  background-color: #93a1a1 !important;
+  color: #586e75 !important;
+}
+.pagination .disabled {
+  background-color: #eee8d5 !important;
+  color: #93a1a1 !important;
+}
+.pagination .disabled:hover {
+  background-color: #eee8d5 !important;
+}
+.pagination .gap {
+  background-color: #eee8d5 !important;
+  color: #93a1a1 !important;
+}
+.pagination a {
+  background-color: #eee8d5 !important;
+  border-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+.pagination a:hover {
+  background-color: #93a1a1 !important;
+  color: #fdf6e3 !important;
+}
+.empty-cell,
+.diffbar {
+  background-color: #fdf6e3 !important;
+}
+.merge-status-item {
+  background-color: #e9e1c8 !important;
+}
+.merge-message {
+  background-color: #ebe4cf !important;
+}
+.pr-toolbar {
+  background-color: #fdf6e3 !important;
+}
+.review-thread-reply {
+  background-color: #eee8d5 !important;
+}
+.review-thread-reply .inline-comment-form {
+  background-color: #fdf6e3 !important;
+}
+.octicon-git-merge {
+  color: #fff !important;
+}
+.uploaded-files {
+  background-color: #fdf6e3 !important;
+}
+.upload-progress {
+  background-color: #eee8d5 !important;
+  box-shadow: 1px 0px 0px #eee8d5 inset;
+}
+#readme .plain {
+  background-color: #fdf6e3 !important;
+}
+.markdown-body,
+.markdown-body table * {
+  background-color: #fdf6e3 !important;
+  border-color: #839496 !important;
+  color: #657b83 !important;
+}
+.markdown-body a,
+.markdown-body table * a {
+  color: #268bd2 !important;
+}
+.markdown-body code,
+.markdown-body table * code,
+.markdown-body pre,
+.markdown-body table * pre {
+  background-color: #eee8d5 !important;
+}
+.markdown-body hr,
+.markdown-body table * hr {
+  background-color: #93a1a1 !important;
+}
+.markdown-body img,
+.markdown-body table * img {
+  background-color: #fdf6e3 !important;
+}
+.task-list-item.hovered {
+  background-color: #eee8d5 !important;
+}
+.range-editor {
+  background-color: #eee8d5 !important;
+}
+.compare-pr-placeholder {
+  background-color: #ebe4cf !important;
+}
+ul.comparison-list > li.title {
+  background-color: #e9e1c8 !important;
+}
+ul.comparison-list {
+  background-color: #ebe4cf !important;
+}
+.repository-description {
+  color: #657b83 !important;
+}
+.repository-meta .edit-repository-meta label {
+  color: #657b83 !important;
+}
+.pagehead.repohead {
+  background-color: #eee8d5 !important;
+}
+.repository-content .RecentBranches {
+  background-color: #eee8d5 !important;
+  border-color: #839496 !important;
+}
+.repohead-details-container a {
+  color: #657b83 !important;
+}
+.select-menu-modal {
+  border-color: #657b83 !important;
+}
+.select-menu-modal * {
+  color: #657b83 !important;
+}
+.select-menu-header,
+.select-menu-header * {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+  text-shadow: none !important;
+}
+.select-menu-item {
+  background-color: #fdf6e3 !important;
+}
+.select-menu-item.navigation-focus,
+.select-menu-item.navigation-focus.selected,
+.select-menu-item.navigation-focus.select-menu-action,
+.select-menu-item-text.navigation-focus {
+  background-color: #93a1a1 !important;
+  color: #586e75 !important;
+}
+.repository-sidebar {
+  background-color: #fdf6e3 !important;
+}
+.thread-subscription-status {
+  background-color: #fdf6e3 !important;
+}
+.sunken-menu {
+  background-image: linear-gradient(to right, #eee8d5 0%, #fdf6e3 8px) !important;
+  box-shadow: 1px 0px 0px #eee8d5 inset;
+}
+.sunken-menu:before {
+  background-image: linear-gradient(#fdf6e3, transparent) !important;
+}
+.sunken-menu:after {
+  background-image: linear-gradient(transparent, #fdf6e3) !important;
+}
+.sunken-menu-item {
+  border-color: #fdf6e3 !important;
+}
+.sunken-menu-item.selected {
+  background-color: #fdf6e3 !important;
+  border-color: #e9e1c8 !important;
+  color: #586e75 !important;
+}
+.sunken-menu-item.selected:after {
+  background-color: #cb4b16 !important;
+}
+.sunken-menu-separator:before {
+  background-image: linear-gradient(to right, #eee8d5 70%, #fdf6e3 100%) !important;
+}
+.state {
+  color: #586e75 !important;
+}
+.state-closed {
+  background-color: #dc322f !important;
+}
+.state-open {
+  background-color: #859900 !important;
+}
+.subnav-item {
+  color: #657b83 !important;
+}
+.subnav-item:hover {
+  background-color: #ebe4cf !important;
+}
+.subnav-item:visited {
+  color: #657b83 !important;
+}
+.subnav-item.selected {
+  background-color: #eee8d5 !important;
+}
+.subnav-links a:hover {
+  background-color: #eee8d5 !important;
+}
+.subnav-search input {
+  border-color: #93a1a1 !important;
+}
+.right .tabnav-extra {
+  color: #93a1a1 !important;
+}
+a.tabnav-tab,
+.tabnav-tab {
+  border-color: transparent !important;
+  color: #93a1a1 !important;
+}
+a.tabnav-tab.selected,
+.tabnav-tab.selected {
+  background-color: #fdf6e3 !important;
+  background-image: linear-gradient(#eee8d5, #fdf6e3) !important;
+  border-color: #839496 !important;
+  color: #586e75 !important;
+}
+.table-list tr,
+.table-list li {
+  background-color: #fdf6e3 !important;
+}
+.table-list tr:hover,
+.table-list li:hover {
+  background-color: #e9e1c8 !important;
+}
+.table-list-header {
+  background-color: #eee8d5 !important;
+}
+.text-pending {
+  color: #b58900 !important;
+}
+.text-pending .octicon-primitive-dot {
+  color: #b58900 !important;
+}
+.text-red {
+  color: #dc322f !important;
+}
+.timeline-commits .commit-meta {
+  background-color: #fdf6e3 !important;
+}
+.timeline-commits .commit-meta .commit-id {
+  color: #93a1a1 !important;
+}
+.topic-tag.topic-tag-link {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+.underline-nav-item {
+  color: #657b83 !important;
+}
+.underline-nav-item.selected {
+  border-bottom-color: #dc322f !important;
+  color: #657b83 !important;
+}
+.user-profile-nav {
+  background-color: #eee8d5 !important;
+  border-color: #839496 !important;
+}
+.user-profile-sticky-bar:after {
+  background-color: #eee8d5 !important;
+  border-color: #839496 !important;
+}
+.graphs .area {
+  fill: #859900;
+}
+.summary-stats li .num {
+  color: #586e75 !important;
+}
+.viz {
+  background-color: #ebe4cf !important;
+}
+.facebox-popup {
+  color: #657b83 !important;
+  background-color: #fdf6e3 !important;
+}
+.facebox-popup .octicon {
+  color: #fff !important;
+}
+.facebox-popup .owner-select-target {
+  color: #657b83 !important;
+  background-color: #eee8d5 !important;
+}
+.facebox-popup .owner-select-target:hover {
+  background-color: #93a1a1 !important;
+}
+.suggester {
+  background-color: #e9e1c8 !important;
+}
+.suggester li.navigation-focus {
+  background-color: #93a1a1 !important;
+}
+.sfbgg {
+  background-color: #eee8d5 !important;
+}
+.sbib_a {
+  background: linear-gradient(to bottom, #eee8d5, #fdf6e3) !important;
+}
+input#lst-ib,
+#sb_ifc0.sbib_b,
+#gs_taif0 {
+  background: transparent !important;
+}
+#lst-ib,
+.sbsb_a {
+  background-color: #fdf6e3 !important;
+}
+.kpbb {
+  background-image: linear-gradient(to bottom, #59a9e1, #268bd2) !important;
+}
+#hdtbSum {
+  background-color: #fdf6e3 !important;
+}
+#hdtbMenus.hdtb-td-o {
+  background-color: #fdf6e3 !important;
+}
+#hdtb-tls.hdtb-tl {
+  background-image: linear-gradient(to bottom, #fdf6e3, #eee8d5) !important;
+}
+#hdtb-tls.hdtb-tl.hdtb-tl-sel {
+  background-image: linear-gradient(to bottom, #eee8d5, #fdf6e3) !important;
+}
+#abar_button_opt.ab_button {
+  background: linear-gradient(to bottom, #fdf6e3, #eee8d5) !important;
+}
+#appbar {
+  background-color: #fdf6e3 !important;
+}
+cite {
+  color: #859900 !important;
+}
+.ab_dropdown {
+  background-color: #fdf6e3 !important;
+}
+div.crp {
+  background-color: #fdf6e3 !important;
+}
+#fbar {
+  background-color: #eee8d5 !important;
+}
+table {
+  background-color: #fdf6e3 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table,
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table {
+  background-color: #cb4b16 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) a,
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) a {
+  color: #000 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2),
+#hnmain > tbody:nth-child(1) > tr:nth-child(2) {
+  background-color: #fdf6e3 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(2) {
+  background-color: #fdf6e3 !important;
+}
+.title a {
+  color: #657b83 !important;
+}
+.title a:visited {
+  color: #93a1a1 !important;
+}
+a.storylink {
+  color: #586e75 !important;
+  font-weight: bold;
+}
+.sitestr {
+  color: #268bd2 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) {
+  background-color: #fdf6e3 !important;
+}
+#hnmain .comhead {
+  color: #586e75 !important;
+}
+#hnmain .c00 {
+  color: #657b83 !important;
+}
+#hnmain a.hnuser {
+  color: #b58900 !important;
+}
+#hnmain span.age a {
+  color: #93a1a1 !important;
+}
+.cdd {
+  color: rgba(202,0,0,0.65) !important;
+}
+.comment i {
+  color: #93a1a1 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(4) {
+  background-color: #fdf6e3 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+  background-color: #cb4b16 !important;
+}
+tr.Even {
+  background-color: #eee8d5 !important;
+}
+.BigQuote {
+  background-color: #eee8d5 !important;
+  color: #cb4b16 !important;
+}
+.Cat1HL {
+  background-color: #93a1a1 !important;
+  color: #586e75 !important;
+}
+.Cat2HL {
+  background-color: #e9e1c8 !important;
+}
+.Cat3HL {
+  background-color: #ebe4cf !important;
+}
+.FeatureByline {
+  background-color: #eee8d5 !important;
+  border: none !important;
+}
+.Headline {
+  background-color: #e9e1c8 !important;
+}
+.QuotedText {
+  color: #6c71c4 !important;
+}
+DIV.GAByline {
+  background-color: #eee8d5 !important;
+  border: none !important;
+}
+table.OddEven tr:nth-child(even) {
+  background-color: #fcf3da !important;
+}
+table.OddEven tr:nth-child(odd) {
+  background-color: #fdf6e3 !important;
+}
+DIV.CommentBox {
+  border-color: #eee8d5 !important;
+}
+DIV.CommentBox P.CommentTitle {
+  background-color: #e9e1c8 !important;
+}
+#menu,
+.topnav-container {
+  background-color: #eee8d5 !important;
+}
+.navmenu ul {
+  background-color: #eee8d5 !important;
+}
+body * {
+  border-color: #e9e1c8 !important;
+}
+#content {
+  background-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+#mw-head,
+#mw-panel {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+#mw-head div.portal,
+#mw-panel div.portal {
+  background-image: none !important;
+}
+#mw-head {
+  background-color: #eee8d5 !important;
+  background-image: linear-gradient(to bottom, #fdf6e3, #eee8d5) !important;
+}
+#mw-panel,
+#p-logo {
+  background-image: linear-gradient(to right, #fdf6e3, #eee8d5) !important;
+}
+div.vectorTabs {
+  background-image: linear-gradient(to bottom, #fdf6e3, #eee8d5) !important;
+}
+div.vectorTabs ul {
+  background-image: linear-gradient(to bottom, #fdf6e3, #eee8d5) !important;
+}
+div.vectorTabs ul li {
+  background-color: #eee8d5 !important;
+  background-image: none !important;
+  padding: 0px 1px 0px 1px !important;
+}
+div.vectorTabs span {
+  background-color: #eee8d5 !important;
+  background-image: linear-gradient(to bottom, #fdf6e3, #eee8d5) !important;
+}
+div.vectorTabs li.selected,
+div.vectorTabs li.selected span {
+  background-color: transparent !important;
+  background-image: linear-gradient(to bottom, #eee8d5, #fdf6e3) !important;
+}
+.mw-wiki-logo {
+  filter: opacity(50%);
+}
+div#simpleSearch #searchInput {
+  background-color: #fdf6e3 !important;
+  padding: 0.05em 0px 0.2em 0.2em !important;
+}
+.ambox,
+.infobox,
+#toc,
+#toctitle,
+.toclevel-1 {
+  background-color: #eee8d5 !important;
+  border-color: #e9e1c8 !important;
+  color: #586e75 !important;
+}
+.catlinks {
+  background-color: #eee8d5 !important;
+  border-color: #e9e1c8 !important;
+  color: #586e75 !important;
+}
+.navbox {
+  background-color: #eee8d5 !important;
+  border-color: #e9e1c8 !important;
+  color: #586e75 !important;
+}
+.navbox .th,
+.navbox .navbox-title {
+  background-color: #e9e1c8 !important;
+}
+.navbox-abovebelow,
+th.navbox-group,
+.navbox-subgroup,
+.navbox-title {
+  background-color: #ebe4cf !important;
+}
+.navbox-even {
+  background-color: #fdf6e3 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  border-color: #e9e1c8 !important;
+  color: #586e75 !important;
+}
+code {
+  background-color: #e9e1c8 !important;
+  border-color: #e9e1c8 !important;
+  color: #586e75 !important;
+}
+div.thumbinner {
+  background-color: #eee8d5 !important;
+  border-color: #e9e1c8 !important;
+}
+img {
+  filter: opacity(75%);
+}
+img.thumbimage {
+  border-color: #e9e1c8 !important;
+}
+.mw-body .external {
+  opacity: 0.5 !important;
+}
+table.wikitable {
+  background-color: #fdf6e3 !important;
+  border-color: #e9e1c8 !important;
+  color: #657b83 !important;
+}
+table.wikitable > * > tr > th {
+  background-color: #eee8d5 !important;
+}
+div#page div#header {
+  background-color: #fdf6e3 !important;
+}
+div#page div#header a {
+  color: #6c71c4 !important;
+}
+.post {
+  background-color: #fdf6e3 !important;
+}
+.post * {
+  overflow: auto !important;
+}
+.post h2 {
+  background-color: #eee8d5 !important;
+}
+.post h2 a {
+  color: #586e75 !important;
+}
+.post div.entry {
+  background-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+.post div.entry blockquote {
+  background-color: #eee8d5 !important;
+}
+.post div.entry kbd {
+  background-color: #eee8d5 !important;
+  border-color: #93a1a1 !important;
+  box-shadow: none !important;
+  color: #586e75 !important;
+  text-shadow: 0px 1px 0px #000 !important;
+}
+.post pre.mode-line {
+  overflow: visible !important;
+}
+#sr-header-area {
+  background-color: #eee8d5 !important;
+}
+#sr-header-area .srdrop .selected {
+  color: #657b83 !important;
+}
+#sr-header-area #sr-more-link {
+  background-color: #eee8d5 !important;
+}
+.link.promotedlink.promoted {
+  background-color: #eee8d5 !important;
+}
+.link .usertext .md {
+  background-color: #eee8d5 !important;
+}
+.linkinfo {
+  background-color: #eee8d5 !important;
+}
+.linklisting .odd {
+  background-color: #eee8d5 !important;
+}
+.thing .title {
+  color: #657b83 !important;
+}
+div.md {
+  color: #657b83 !important;
+}
+body.comment {
+  background-color: #fdf6e3 !important;
+}
+.commentarea > .usertext {
+  background-color: #fdf6e3 !important;
+}
+.commentarea .menuarea {
+  background-color: #fdf6e3 !important;
+}
+.comments-page .panestack-title {
+  background-color: #fdf6e3 !important;
+}
+.listing-chooser {
+  background-color: #fdf6e3 !important;
+}
+.listing-chooser .intro {
+  background-color: #93a1a1 !important;
+  color: #586e75 !important;
+}
+.listing-chooser .grippy {
+  background-color: #fdf6e3 !important;
+}
+.listing-chooser .grippy:after {
+  border-right: none !important;
+}
+.listing-chooser li {
+  background-color: #eee8d5 !important;
+}
+.listing-chooser li.selected {
+  background-color: #93a1a1 !important;
+  box-shadow: none;
+}
+.listing-chooser li a {
+  color: #657b83 !important;
+}
+.listing-chooser li a .description {
+  color: #586e75 !important;
+}
+.titlebox {
+  background-color: #eee8d5 !important;
+}
+.titlebox form.toggle {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+.side .usertext-body .md {
+  background-color: #eee8d5 !important;
+}
+.side {
+  background-color: #eee8d5 !important;
+}
+.sidebox .spacer {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+.tabmenu li a {
+  background-color: #eee8d5 !important;
+}
+#header-bottom-right {
+  background-color: #eee8d5 !important;
+}
+.morelink .nub {
+  background-color: #eee8d5 !important;
+}
+* {
+  border-color: #839496 !important;
+}
+a {
+  color: #268bd2 !important;
+}
+a:visited {
+  color: #6c71c4 !important;
+}
+body {
+  background-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+html {
+  background-color: #fdf6e3 !important;
+}
+input,
+textarea {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+tr:hover,
+blockquote,
+pre {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+#toolMenu li {
+  background-color: #fdf6e3 !important;
+}
+.navPanel,
+.navIntraTool {
+  background-color: #fdf6e3 !important;
+}
+.instruction,
+.sakaiCopyrightInfo {
+  color: #657b83 !important;
+}
+.listHier th {
+  background-color: #e9e1c8 !important;
+}
+ul.makeMenu {
+  background-color: #e9e1c8 !important;
+  border: 1px solid #e9e1c8 !important;
+}
+tr.external {
+  background-color: #e9e1c8 !important;
+}
+hr {
+  background-color: #e9e1c8 !important;
+  color: #e9e1c8 !important;
+}
+.bounty-indicator,
+.bounty-indicator-tab {
+  background-color: #6c71c4 !important;
+}
+.bottom-notice {
+  background-color: #eee8d5 !important;
+}
+.comments-link {
+  color: #859900 !important;
+}
+.page-numbers {
+  background-color: #859900 !important;
+  color: #073642 !important;
+}
+.page-numbers.current {
+  background-color: #cb4b16 !important;
+  color: #fdf6e3 !important;
+}
+.post-menu a {
+  color: #6c71c4 !important;
+}
+.question-status {
+  background-color: #eee8d5 !important;
+}
+pre code {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+pre code .atn {
+  color: #268bd2 !important;
+}
+pre code .atv {
+  color: #2aa198 !important;
+}
+pre code .com {
+  color: #93a1a1 !important;
+}
+pre code .kwd {
+  color: #859900 !important;
+}
+pre code .lit {
+  color: #d33682 !important;
+}
+pre code .pln,
+pre code .pun {
+  color: #657b83 !important;
+}
+pre code .str {
+  color: #2aa198 !important;
+}
+pre code .tag {
+  color: #859900 !important;
+}
+pre code .typ {
+  color: #b58900 !important;
+}
+#footer {
+  background-color: #ebe4cf !important;
+  color: #657b83 !important;
+}
+#footer #footer-sites th {
+  color: #586e75 !important;
+}
+.top-footer-links a {
+  color: #859900 !important;
+}
+.so-header {
+  background-color: #e9e1c8 !important;
+  color: #586e75 !important;
+}
+.so-header a {
+  color: #859900 !important;
+}
+.so-header .navigation .-list .-item :hover {
+  background-color: #859900 !important;
+  color: #002b36 !important;
+}
+.topbar-dialog {
+  background-color: #fdf6e3 !important;
+  box-shadow: #93a1a1 5px 5px 5px;
+}
+.topbar-dialog .current-site-container {
+  background-color: #fdf6e3 !important;
+}
+.topbar-dialog .header {
+  background-color: #eee8d5 !important;
+}
+.topbar-dialog .header a {
+  color: #586e75 !important;
+}
+.topbar-dialog .site-link {
+  color: #586e75 !important;
+}
+#header {
+  background-color: #e9e1c8 !important;
+}
+#question-header .question-hyperlink {
+  color: #586e75 !important;
+}
+#hlogo a {
+  filter: opacity(75%);
+}
+.new-post-activity {
+  background-color: #eee8d5 !important;
+}
+.tagged-interesting {
+  background-color: #e9e1c8 !important;
+}
+div.answered-accepted {
+  background-color: #859900 !important;
+  color: #073642 !important;
+}
+div.answered-accepted .mini-counts {
+  background-color: #859900 !important;
+  color: #073642 !important;
+}
+.answered .mini-counts span {
+  color: #859900 !important;
+}
+.unanswered .mini-counts span {
+  color: #657b83 !important;
+}
+#hot-network-questions a {
+  color: #2aa198 !important;
+}
+#hot-network-questions h4 a.js-gps-track {
+  color: #586e75 !important;
+}
+#sidebar .community-bulletin .bulletin-item-content a {
+  color: #586e75 !important;
+}
+#sidebar .module.community-bulletin {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+#sidebar .question-hyperlink {
+  color: #2aa198 !important;
+}
+.newuser {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+.label-key {
+  color: #657b83 !important;
+}
+.label-key b {
+  color: #586e75 !important;
+}
+#h-chat-link {
+  color: #586e75 !important;
+}
+.ad502-room {
+  background-color: #eee8d5 !important;
+  box-shadow: #93a1a1 0px 1px 3px;
+  color: #586e75 !important;
+}
+#tabs a {
+  background-color: transparent !important;
+  background-image: linear-gradient(to bottom, #fdf6e3, #eee8d5);
+  color: #586e75 !important;
+}
+#tabs a.youarehere {
+  background-image: linear-gradient(to bottom, #cb4b16, #fdf6e3);
+  color: #002b36 !important;
+}
+.post-tag {
+  background-color: #93a1a1 !important;
+  color: #fdf6e3 !important;
+}
+.post-tag::before {
+  background-color: #fdf6e3 !important;
+}
+a.comment-user.owner {
+  background-color: #859900 !important;
+  color: #073642 !important;
+}
+.post-signature {
+  background-color: #eee8d5 !important;
+  color: #586e75 !important;
+}
+.post-signature a {
+  color: #2aa198 !important;
+}
+.post-signature.owner .user-info .user-details a {
+  color: #859900 !important;
+}
+.post-signature span.relativetime {
+  color: #586e75 !important;
+}
+.vote {
+  background-color: #eee8d5 !important;
+}
+.vote .star-off {
+  filter: opacity(75%);
+}
+.vote .star-on {
+  filter: opacity(50%) !important;
+}
+.vote .vote-down-off,
+.vote .vote-up-off {
+  filter: opacity(50%);
+}
+.answer-votes {
+  background-color: #93a1a1 !important;
+  color: #fdf6e3 !important;
+}
