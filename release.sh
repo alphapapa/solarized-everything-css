@@ -5,9 +5,9 @@ IFS=$'\n\t'
 API_BASE="https://api.github.com"
 UPLOAD_BASE="https://uploads.github.com"
 # TODO, rename this to alphapapa/solarized-everything-css
-OWNER="jgkamat"
+OWNER="alphapapa"
 # REPO="solarized-everything-css"
-REPO="darculized-everything-css"
+REPO="solarized-everything-css"
 REPO_BASE="${OWNER}/${REPO}"
 TARGET_ZIP_NAME="generated_files.zip"
 
