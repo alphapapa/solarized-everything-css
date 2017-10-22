@@ -17,6 +17,8 @@ TARGET_ZIP_NAME="generated_files.zip"
 # To upload releases, please put a github token in the GH_TOKEN env var, or run with
 # GH_TOKEN="<TOKEN>" ./release.sh hello "my message"
 #
+# For a unofficial release: ./release.sh
+#
 # Dependencies: curl, jq, and git
 
 # Check depdencies
@@ -28,17 +30,6 @@ if ! command -v curl >/dev/null 2>&1 \
 fi
 
 GIT_COMMIT="$(git rev-parse HEAD)"
-
-if [ -z "${1:-}" ]; then
-    echo "Please provide a tag for this release" 2>&1
-    exit 1
-elif [ -z "${2:-}" ]; then
-    echo "Please provide a tag message this release" 2>&1
-    exit 1
-else
-    TAG="$1"
-    MESSAGE="$2"
-fi
 
 echo "Running make..."
 echo
@@ -55,6 +46,20 @@ zip "$TARGET_ZIP_NAME" -r ../css/
 if [ -z "${GH_TOKEN:-}" ]; then
     echo "No GH_TOKEN provided, exiting"
     exit 2
+fi
+
+# Check if we have tag info
+if [ -z "${1:-}" ]; then
+    echo
+    echo "Please provide a tag for this release" 2>&1
+    exit 1
+elif [ -z "${2:-}" ]; then
+    echo
+    echo "Please provide a tag message this release" 2>&1
+    exit 1
+else
+    TAG="$1"
+    MESSAGE="$2"
 fi
 
 echo "Creating release..."

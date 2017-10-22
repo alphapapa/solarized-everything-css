@@ -2,4 +2,7 @@ all:
 	@./make.py
 
 clean:
-	-rm -r css
+	rm -rf css
+
+release:
+	bash release.sh
