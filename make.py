@@ -4,16 +4,21 @@
 
 import os
 import subprocess
+import sys
 import multiprocessing
 import functools
 
 from collections import namedtuple
+from tempfile import mkstemp
 
 # * Variables
 
 sites_dir="sites"
 themes_dir = "themes"
 css_dir = "css"
+screenshots_dir="screenshots"
+
+phantomjs_command = "phantomjs --ssl-protocol=any --ignore-ssl-errors=true screenshot.js".split()
 
 common_deps = ["styl/index.styl", "styl/mixins.styl"]
 
@@ -23,6 +28,16 @@ Theme = namedtuple("Theme", ['name', 'styl_path', 'support_files'])
 # * Functions
 
 def main():
+    "Update CSS files by default, or update screenshots."
+
+    if len(sys.argv) > 1 and sys.argv[1] == "screenshots":
+        update_screenshots()
+    else:
+        update_css_files()
+
+# ** CSS
+
+def update_css_files():
     "Build CSS files that need to be built."
 
     css_files = list_css(themes(), sites())
@@ -65,6 +80,79 @@ def stylus(css):
         f.write(result)
         print(output_file)
 
+# ** Screenshots
+
+def update_screenshots():
+    "Update screenshots."
+
+    css_files = list_css(themes(), sites())
+
+    # Make directories first to avoid race condition
+    for css in css_files:
+        output_dir = os.path.join(screenshots_dir, css.theme.name)
+        if not os.path.isdir(output_dir):
+            os.makedirs(output_dir)
+
+    pool = multiprocessing.Pool(multiprocessing.cpu_count())
+    pool.map(update_screenshot, css_files)
+
+def update_screenshot(css):
+    "Update screenshot for CSS if necessary."
+
+    screenshot_path = screenshot_path_for_css(css)
+    if mtime(css.path) > mtime(screenshot_path):
+        save_screenshot(css)
+
+def screenshot_path_for_css(css):
+    "Return path of screenshot for CSS."
+
+    return os.path.join(screenshots_dir, css.theme.name, "%s.png" % css.site)
+
+def save_screenshot(css):
+    "Save screenshot for CSS."
+
+    # Prepare filename
+    screenshot_path = screenshot_path_for_css(css)
+
+    # Get URL
+    url = css_screenshot_url(css)
+    if not url:
+        # Screenshot disabled
+        return False
+
+    # Prepare command
+    command = list(phantomjs_command)
+    command.extend([url, screenshot_path, css.path])
+
+    # Run PhantomJS
+    subprocess.check_output(command)
+
+    # Compress with pngcrush
+    _, tempfile_path = mkstemp(suffix=".png")
+    subprocess.check_output(["pngcrush", screenshot_path, tempfile_path], stderr=subprocess.DEVNULL)
+    os.replace(tempfile_path, screenshot_path)
+
+    print(screenshot_path)
+
+def css_screenshot_url(css):
+    "Return URL for taking screenshots of CSS."
+
+    # Get site URL
+    site_url_filename = os.path.join(sites_dir, css.site + ".url")
+    if os.path.exists(site_url_filename):
+        with open(site_url_filename, "r") as f:
+            url = f.readlines()
+            if url:
+                # Use URL given in .url file
+                url = url[0].strip()
+    else:
+        # Use name of site file (without .styl extension)
+        url = "http://" + css.site
+
+    return url
+
+# ** Support
+
 def list_css(themes, sites):
     "Return list of CSS files for THEMES and SITES."
 
@@ -79,21 +167,30 @@ def themes():
     theme_names = []
     themes = []
 
+    # Make list of theme directories
     for d in os.listdir(themes_dir):
         theme_names.append(d)
 
+    # Iterate over theme directories
     for theme in theme_names:
         support_files = []
         variant_files = []
         directory = os.path.join(themes_dir, theme)
 
+        # Iterate over files in theme directory
         for f in os.listdir(directory):
             path = os.path.join(themes_dir, theme, f)
-            if f == "colors.styl":
-                support_files.append(path)
-            else:
-                variant_files.append({'variant': without_styl(f), 'path': path})
 
+            if f == "colors.styl":
+                # Support file
+                support_files.append(path)
+
+            elif f.endswith(".styl"):
+                # Theme file
+                variant_files.append({'variant': without_styl(f), 'path': path})
+            # Otherwise, not a relevant file
+
+        # Add theme object to list
         if len(variant_files) == 1:
             # Only one variant: omit variant name from theme name
             themes.append(Theme(theme, variant_files[0]['path'], support_files))
@@ -108,7 +205,9 @@ def sites():
     "Return list of sites."
 
     for path, dirs, files in os.walk(sites_dir):
-        return [site.replace(".styl", "") for site in files]
+        return [site.replace(".styl", "")
+                for site in files
+                if site.endswith(".styl")]
 
 def dependencies(theme, site):
     "Return list of dependency .styl files for THEME and SITE."
@@ -133,6 +232,8 @@ def mtime(path):
         return 0
 
 def without_styl(s):
+    """Return string S without ".styl" extension."""
+
     return s.replace(".styl", "")
 
 # * Footer
