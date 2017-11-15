@@ -169,7 +169,7 @@ a.filter-item
 
 .avatar
 .timeline-comment-avatar
-    filter opacity(50%)
+    filter opacity(75%)
 
 // ** Code syntax highlighting
 .blob-code
@@ -231,6 +231,16 @@ a.filter-item
 .pl-v
     color green
     bold()
+
+// + signs
+.pl-mi1
+    color green
+    background-color transparent
+
+// - signs
+.pl-md
+    color red
+    background-color transparent
 
 // ** .border-*
 
@@ -300,6 +310,27 @@ a.filter-item
 .State--green
     background-color green
     color color-background
+
+// *** branch popup
+.select-menu-filters
+    background-color color-background-highlight-extra-less-less
+    color emphasized
+
+// branch tabs
+.js-select-menu-tab
+    background-color color-background-highlight-extra-less
+    color emphasized
+
+// branch selected tabs
+.select-menu-tabs a.selected
+.select-menu-tab-nav.selected
+    background-color color-background-highlight-extra
+    color color-background
+
+// *** signed commit popup
+
+.signed-commit-header
+    background-color color-background
 
 // ** build
 .build-status-item
@@ -453,6 +484,11 @@ qul.branches-list
 
     &.octicon
         color emphasized
+
+.discussion-item-entity
+.discussion-item .renamed-was
+.discussion-item .renamed-is
+    color emphasized
 
 .discussion-timeline:before
     background-color color-border
