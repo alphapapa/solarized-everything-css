@@ -186,7 +186,7 @@ a.filter-item:hover,
 }
 .avatar,
 .timeline-comment-avatar {
-  filter: opacity(50%);
+  filter: opacity(75%);
 }
 .blob-code {
   background-color: #262626 !important;
@@ -253,6 +253,14 @@ a.filter-item:hover,
   color: #598249 !important;
   font-weight: bold !important;
 }
+.pl-mi1 {
+  color: #598249 !important;
+  background-color: transparent !important;
+}
+.pl-md {
+  color: #bd3832 !important;
+  background-color: transparent !important;
+}
 .border-bottom,
 .border-top {
   border-color: #2e2e2e !important;
@@ -318,6 +326,22 @@ a.filter-item:hover,
 .State--green {
   background-color: #598249 !important;
   color: #262626 !important;
+}
+.select-menu-filters {
+  background-color: #323232 !important;
+  color: #a6aaab !important;
+}
+.js-select-menu-tab {
+  background-color: #363636 !important;
+  color: #a6aaab !important;
+}
+.select-menu-tabs a.selected,
+.select-menu-tab-nav.selected {
+  background-color: #5e6263 !important;
+  color: #262626 !important;
+}
+.signed-commit-header {
+  background-color: #262626 !important;
 }
 .build-status-item {
   background-color: #363636 !important;
@@ -462,6 +486,11 @@ qul.branches-list * {
   color: #a6aaab !important;
 }
 .discussion-item-icon.octicon {
+  color: #a6aaab !important;
+}
+.discussion-item-entity,
+.discussion-item .renamed-was,
+.discussion-item .renamed-is {
   color: #a6aaab !important;
 }
 .discussion-timeline:before {
