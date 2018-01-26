@@ -9,7 +9,7 @@ OWNER="alphapapa"
 # REPO="solarized-everything-css"
 REPO="solarized-everything-css"
 REPO_BASE="${OWNER}/${REPO}"
-TARGET_ZIP_NAME="generated_files.zip"
+TARGET_ZIP_NAME="solarized-everything.zip"
 
 # USAGE:
 # ./release.sh [tag-name] [tag-message]
