@@ -1,3 +1,5 @@
+.PHONY: all screenshots
+
 all:
 	@./make.py
 
@@ -6,3 +8,6 @@ clean:
 
 release:
 	bash release.sh
+
+screenshots:
+	@./make.py screenshots

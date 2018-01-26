@@ -1,0 +1,61 @@
+* {
+  border-color: #909396 !important;
+}
+a {
+  color: #ce4139 !important;
+}
+a:visited {
+  color: #b68800 !important;
+}
+body {
+  background-color: #262626 !important;
+  color: #909396 !important;
+}
+html {
+  background-color: #262626 !important;
+}
+input,
+textarea {
+  background-color: #2e2e2e !important;
+  color: #909396 !important;
+}
+blockquote,
+pre {
+  background-color: #2e2e2e !important;
+  color: #909396 !important;
+}
+div#page div#header {
+  background-color: #262626 !important;
+}
+div#page div#header a {
+  color: #797fd4 !important;
+}
+.post {
+  background-color: #262626 !important;
+}
+.post * {
+  overflow: auto !important;
+}
+.post h2 {
+  background-color: #2e2e2e !important;
+}
+.post h2 a {
+  color: #a6aaab !important;
+}
+.post div.entry {
+  background-color: #262626 !important;
+  color: #909396 !important;
+}
+.post div.entry blockquote {
+  background-color: #2e2e2e !important;
+}
+.post div.entry kbd {
+  background-color: #2e2e2e !important;
+  border-color: #5e6263 !important;
+  box-shadow: none !important;
+  color: #a6aaab !important;
+  text-shadow: 0px 1px 0px #000 !important;
+}
+.post pre.mode-line {
+  overflow: visible !important;
+}

@@ -1,0 +1,74 @@
+* {
+  border-color: #909396 !important;
+}
+a {
+  color: #ce4139 !important;
+}
+a:visited {
+  color: #b68800 !important;
+}
+body {
+  background-color: #262626 !important;
+  color: #909396 !important;
+}
+html {
+  background-color: #262626 !important;
+}
+input,
+textarea {
+  background-color: #2e2e2e !important;
+  color: #909396 !important;
+}
+blockquote,
+pre {
+  background-color: #2e2e2e !important;
+  color: #909396 !important;
+}
+.sfbgg {
+  background-color: #2e2e2e !important;
+}
+.sbib_a {
+  background: linear-gradient(to bottom, #2e2e2e, #262626) !important;
+}
+input#lst-ib,
+#sb_ifc0.sbib_b,
+#gs_taif0 {
+  background: transparent !important;
+}
+#lst-ib,
+.sbsb_a {
+  background-color: #262626 !important;
+}
+.kpbb {
+  background-image: linear-gradient(to bottom, #639ce6, #2f7bde) !important;
+}
+#hdtbSum {
+  background-color: #262626 !important;
+}
+#hdtbMenus.hdtb-td-o {
+  background-color: #262626 !important;
+}
+#hdtb-tls.hdtb-tl {
+  background-image: linear-gradient(to bottom, #262626, #2e2e2e) !important;
+}
+#hdtb-tls.hdtb-tl.hdtb-tl-sel {
+  background-image: linear-gradient(to bottom, #2e2e2e, #262626) !important;
+}
+#abar_button_opt.ab_button {
+  background: linear-gradient(to bottom, #262626, #2e2e2e) !important;
+}
+#appbar {
+  background-color: #262626 !important;
+}
+cite {
+  color: #598249 !important;
+}
+.ab_dropdown {
+  background-color: #262626 !important;
+}
+div.crp {
+  background-color: #262626 !important;
+}
+#fbar {
+  background-color: #2e2e2e !important;
+}
