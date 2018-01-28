@@ -42,34 +42,36 @@ You may install some of the stylesheets directly in your browser from [[http://u
 
 Install the stylesheet of your choice according to your browser's method (e.g. using the Stylish extension in Firefox).
 
+Multiple themes besides solarized are supported. The currently supported themes are listed in =css/=. After selecting a theme, the css files you need will be inside.
+
 **** Files
 
-- ~solarized-all-sites-*.css~
+- ~theme-all-sites-*.css~
   These have all the sites' styles smushed into one big file.  Might work pretty well for most sites.  If the collection grows, it might begin to have conflicts--but it still might work pretty well.  It might be a lot better than adding a separate stylesheet for every site you visit...
-- ~solarized-generic-*.css~
+- ~theme-generic-*.css~
   These are intended to be generic, suitable for many simple sites.  They probably won't do much for fancy, popular sites with lots of custom CSS, but for simple, mostly unstyled sites, they might work okay.
-- ~solarized-mediawiki-*.css~
+- ~theme-mediawiki-*.css~
   For MediaWiki sites, like Wikipedia
-- ~solarized-disqus-*.css~
+- ~theme-disqus-*.css~
   For Disqus comments
-- ~solarized-github-*.css~
+- ~theme-github-*.css~
   For GitHub
-- ~solarized-google-*.css~
+- ~theme-google-*.css~
   For Google
-- ~solarized-hackernews-*.css~
+- ~theme-hackernews-*.css~
   For Hacker News
-- ~solarized-planet.emacsen.org-*.css~
+- ~theme-planet.emacsen.org-*.css~
   For [[http://planet.emacsen.org][Planet Emacsen]]
-- ~solarized-stackexchange-*.css~
+- ~theme-stackexchange-*.css~
   For StackExchange sites.  Not all sites are covered, but some of the main ones are.  Patches welcome.
-- ~solarized-sakai-*.css~
+- ~theme-sakai-*.css~
   For sites hosted by [[https://sakaiproject.org/][sakai]], a popular course management program.
 
 ** Development                                                  :noexport_1:
 
 To make changes, just edit the =.styl= files and run =make=.  (You need to have Stylus installed, of course.)
 
-Basically, nearly the only things that should be in =dark.styl= or =light.styl= should be changes to the =color-= variables that adjust it for light or dark.  Everything else should go in =sites/*.styl=.  Colors are defined as =color-= variables, and mixins are used to insert common CSS properties (like =color=, =background=, etc) with =!important=.  Most changes can be made without inserting CSS properties directly into the selectors.
+Basically, nearly the only things that should be in =themes/*/*.styl= should be changes to the =color-= variables that adjust it for light or dark.  Everything else should go in =sites/*.styl=.  Colors are defined as =color-= variables, and mixins are used to insert common CSS properties (like =color=, =background=, etc) with =!important=.  Most changes can be made without inserting CSS properties directly into the selectors.
 
 I highly recommend using Emacs with =stylus-mode= and =outline-minor-mode=, but, of course, you can use whatever you like.  :)
 
@@ -82,15 +84,25 @@ Stylus can be very confusing when it comes to importing/requiring sheets into ot
 This is how the sheets ~require~ in this project:
 
 + =Makefile=
-    - =styl/{dark,light}.styl= (in Makefile syntax: ~$$color.styl~)
-        + =colors=
-        + Contents of ={dark,light}.styl=
+    - =theme=: contains custom theme files. Each theme corresponds to a group of css files.
+        - =*/{dark,light}.styl= (in Makefile syntax: ~$$color.styl~)
+            - =colors=
+            - Contents of ={dark,light}.styl=
     - =styl= (which loads =styl/index.styl=)
-        + =generic=
-            - =mixins=
+        - =mixins=
     - =sites/*.styl=: The site-specific sheets, as well as =generic.styl=, which applies to all of them, and also builds as a separate sheet for non-specific sites.  =all-sites.styl= puts all of the site-specific sheets into one big CSS file, which some people may prefer over setting up custom CSS for each site in their browser.
 
-This way, the Solarized color values are loaded first, followed by the dark- or light-themed mappings of those color values to friendly names, after which those friendly names can be used in the sheets that actually style elements and pages.
+This way, the color values are loaded first, followed by the dark- or light-themed mappings of those color values to friendly names, after which those friendly names can be used in the sheets that actually style elements and pages.
+
+*** New Themes
+
+It is possible to use this framework to build a theme for the web on your own specifications! Here's a short guide on creating your own themes.
+
+1. Create a new folder in =themes/= to match your new theme.
+2. Copy the existing =themes/solarized/colors.styl= and =themes/solarized/dark.styl= into your directory.
+3. Modify the listed colors to match the base colors of your new theme!
+
+Adding additional or finer colors is possible, but requires more work, as the colors will need to be defined for every theme.
 
 ** Credits
 
