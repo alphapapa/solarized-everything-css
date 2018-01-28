@@ -42,8 +42,6 @@ echo "zipping files..."
 
 zip "dist/$TARGET_ZIP_NAME" -r css/
 
-cd dist
-
 if [ -z "${GH_TOKEN:-}" ]; then
     echo "No GH_TOKEN provided, exiting"
     exit 2
@@ -84,7 +82,7 @@ echo "Uploading release assets..."
 curl -X POST "$UPLOAD_BASE/repos/$REPO_BASE/releases/$RELEASE_ID/assets?name=$TARGET_ZIP_NAME" \
      -H "Authorization: token $GH_TOKEN" \
      -H "Content-Type: application/zip" \
-     --data-binary "@${TARGET_ZIP_NAME}" >/dev/null
+     --data-binary "@dist/${TARGET_ZIP_NAME}" >/dev/null
 
 echo
 echo "Release created successfuly!"
