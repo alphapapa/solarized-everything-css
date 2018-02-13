@@ -103,8 +103,6 @@ It's easy to add your own themes:
 2. Modify it as required.
 3. Run =make= in the project root directory to build the CSS files.
 
-Adding additional, more detailed colors is possible, but requires more work, as the colors will need to be defined for every available theme.
-
 ** Credits
 
 +  Thanks to [[https://github.com/The-Compiler][Florian Bruhin]] for contributing the Reddit and DuckDuckGo sheets, as well as several fixes and improvements.
