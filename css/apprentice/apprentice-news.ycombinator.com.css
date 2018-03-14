@@ -1,0 +1,84 @@
+* {
+  border-color: #800080 !important;
+}
+a {
+  color: #5f87af !important;
+}
+a:visited {
+  color: #87af87 !important;
+}
+body {
+  background-color: #262626 !important;
+  color: #bcbcbc !important;
+}
+html {
+  background-color: #262626 !important;
+}
+input,
+textarea {
+  background-color: #272727 !important;
+  color: #bcbcbc !important;
+}
+blockquote,
+pre {
+  background-color: #272727 !important;
+  color: #bcbcbc !important;
+}
+table {
+  background-color: #262626 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table,
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table {
+  background-color: #ff8700 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) a,
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) a {
+  color: #000 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2),
+#hnmain > tbody:nth-child(1) > tr:nth-child(2) {
+  background-color: #262626 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(2) {
+  background-color: #262626 !important;
+}
+.title a {
+  color: #bcbcbc !important;
+}
+.title a:visited {
+  color: #585858 !important;
+}
+a.storylink {
+  color: #ff8700 !important;
+  font-weight: bold;
+}
+.sitestr {
+  color: #00f !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) {
+  background-color: #262626 !important;
+}
+#hnmain .comhead {
+  color: #ff8700 !important;
+}
+#hnmain .c00 {
+  color: #bcbcbc !important;
+}
+#hnmain a.hnuser {
+  color: #ff0 !important;
+}
+#hnmain span.age a {
+  color: #585858 !important;
+}
+.cdd {
+  color: rgba(255,0,0,0.65) !important;
+}
+.comment i {
+  color: #585858 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(4) {
+  background-color: #262626 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+  background-color: #ff8700 !important;
+}
