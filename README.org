@@ -5,11 +5,18 @@ This is a small (growing?) collection of user-stylesheets based upon the [[http:
 Wouldn't it be nice if (almost) every web site looked Solarized?  I thought so.  So here is a start.  :)
 
 ** Contents :TOC:
- - [[#solarizedeverything][Solarized...Everything?]]
-     - [[#screenshots][Screenshots]]
-     - [[#installation][Installation]]
-     - [[#development][Development]]
-     - [[#license][License]]
+- [[#solarizedeverything][Solarized...Everything?]]
+  - [[#screenshots][Screenshots]]
+    - [[#github][GitHub]]
+      - [[#dark][Dark]]
+      - [[#light][Light]]
+    - [[#wikipedia][Wikipedia]]
+      - [[#dark-1][Dark]]
+      - [[#light-1][Light]]
+  - [[#installation][Installation]]
+  - [[#development][Development]]
+  - [[#credits][Credits]]
+  - [[#license][License]]
 
 ** Screenshots
 
@@ -108,6 +115,7 @@ It's easy to add your own themes:
 +  Thanks to [[https://github.com/The-Compiler][Florian Bruhin]] for contributing the Reddit and DuckDuckGo sheets, as well as several fixes and improvements.
 +  Thanks to [[https://github.com/jgkamat][Jay Kamat]] for contributing the Sakai stylesheet and several fixes and improvements.
 +  Thanks to [[https://github.com/cal2195][Cal Martin]] for the gruvbox theme.
++  Thanks to [[https://github.com/non-Jedi][Adam Beckmeyer]] for adapting [[https://github.com/romainl/Apprentice][Romain Lafourcade's Apprentice theme]].
 
 ** License
 
