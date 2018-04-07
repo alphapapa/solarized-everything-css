@@ -5,4 +5,5 @@
 // This requires "sites/" because the Makefile runs stylus from the
 // parent directory.  Using "stylus -r" should make this unnecessary,
 // but it doesn't.
-@require 'sites/*'
+// Sites starting with '_' will not be included.
+@require 'sites/[^_]*.styl'
