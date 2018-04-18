@@ -97,7 +97,7 @@ This is how the sheets ~require~ in this project:
             - Contents of ={dark,light}.styl=
     - =styl= (which loads =styl/index.styl=)
         - =mixins=
-    - =sites/*.styl=: The site-specific sheets, as well as =generic.styl=, which applies to all of them, and also builds as a separate sheet for non-specific sites.  =all-sites.styl= puts all of the site-specific sheets into one big CSS file, which some people may prefer over setting up custom CSS for each site in their browser.
+    - =sites/*.styl=: The site-specific sheets, as well as =generic.styl=, which applies to all of them, and also builds as a separate sheet for non-specific sites.  =all-sites.styl= puts all of the site-specific sheets into one big CSS file, which some people may prefer over setting up custom CSS for each site in their browser. Styles starting with =_= will not be included in =all-sites.styl=
 
 This way, the color value-name mappings are loaded first, after which those friendly names can be used in the files that actually style elements and pages.
 

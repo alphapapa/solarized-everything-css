@@ -156,7 +156,8 @@ def css_screenshot_url(css):
 def list_css(themes, sites):
     "Return list of CSS files for THEMES and SITES."
 
-    return [CSS("%s/%s/%s-%s.css" % (css_dir, theme.name, theme.name, site),
+    return [CSS("%s/%s/%s-%s.css" % (css_dir, theme.name, theme.name,
+                                     site.strip('_')),
                 dependencies(theme, site), theme, site)
             for theme in themes
             for site in sites]
