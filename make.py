@@ -3,6 +3,7 @@
 # * Imports
 
 import os
+import shutil
 import subprocess
 import sys
 import multiprocessing
@@ -130,7 +131,7 @@ def save_screenshot(css):
     # Compress with pngcrush
     _, tempfile_path = mkstemp(suffix=".png")
     subprocess.check_output(["pngcrush", screenshot_path, tempfile_path], stderr=subprocess.DEVNULL)
-    os.replace(tempfile_path, screenshot_path)
+    shutil.move(tempfile_path, screenshot_path)
 
     print(screenshot_path)
 
