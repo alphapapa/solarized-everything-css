@@ -23,18 +23,18 @@ Wouldn't it be nice if (almost) every web site looked Solarized?  I thought so. 
 *** GitHub
 
 **** Dark
-[[https://raw.githubusercontent.com/alphapapa/solarized-everything-css/screenshots/screenshots/solarized-dark/github.png]]
+[[https://raw.githubusercontent.com/alphapapa/solarized-everything-css/screenshots/solarized-dark/github.png]]
 
 **** Light
-[[https://raw.githubusercontent.com/alphapapa/solarized-everything-css/screenshots/screenshots/solarized-light/github.png]]
+[[https://raw.githubusercontent.com/alphapapa/solarized-everything-css/screenshots/solarized-light/github.png]]
 
 *** Wikipedia
 
 **** Dark
-[[https://raw.githubusercontent.com/alphapapa/solarized-everything-css/screenshots/screenshots/solarized-dark/mediawiki.org.png]]
+[[https://raw.githubusercontent.com/alphapapa/solarized-everything-css/screenshots/solarized-dark/mediawiki.org.png]]
 
 **** Light
-[[https://raw.githubusercontent.com/alphapapa/solarized-everything-css/screenshots/screenshots/solarized-light/mediawiki.org.png]]
+[[https://raw.githubusercontent.com/alphapapa/solarized-everything-css/screenshots/solarized-light/mediawiki.org.png]]
 
 ** Installation                                                 :noexport_1:
 

@@ -88,6 +88,13 @@ def update_screenshots():
 
     css_files = list_css(themes(), sites())
 
+    if not os.path.isdir(screenshots_dir):
+        # If the directory does not exist, create a new worktree for it.
+        # Assumes the screenshots branch exists.
+        subprocess.call(["git", "worktree", "prune"])
+        subprocess.call(["git", "worktree", "add",
+                         screenshots_dir, "screenshots"])
+
     # Make directories first to avoid race condition
     for css in css_files:
         output_dir = os.path.join(screenshots_dir, css.theme.name)
@@ -96,6 +103,17 @@ def update_screenshots():
 
     pool = multiprocessing.Pool(multiprocessing.cpu_count())
     pool.map(update_screenshot, css_files)
+    commit_screenshots()
+
+def commit_screenshots():
+    if os.path.exists(os.path.join(screenshots_dir, ".git")):
+        subprocess.call(["git", "-C", screenshots_dir,
+                         "add", "-A"])
+        # amend changes instead of keeping them to save space
+        subprocess.call(["git", "-C", screenshots_dir,
+                         "commit", "--amend", "-m", "Update screenshots"])
+    else:
+        print("screenshot dir was not a worktree, aborting commit")
 
 def update_screenshot(css):
     "Update screenshot for CSS if necessary."
