@@ -5,29 +5,36 @@ This is a small (growing?) collection of user-stylesheets based upon the [[http:
 Wouldn't it be nice if (almost) every web site looked Solarized?  I thought so.  So here is a start.  :)
 
 ** Contents :TOC:
- - [[#solarizedeverything][Solarized...Everything?]]
-     - [[#screenshots][Screenshots]]
-     - [[#installation][Installation]]
-     - [[#development][Development]]
-     - [[#license][License]]
+- [[#solarizedeverything][Solarized...Everything?]]
+  - [[#screenshots][Screenshots]]
+    - [[#github][GitHub]]
+      - [[#dark][Dark]]
+      - [[#light][Light]]
+    - [[#wikipedia][Wikipedia]]
+      - [[#dark-1][Dark]]
+      - [[#light-1][Light]]
+  - [[#installation][Installation]]
+  - [[#development][Development]]
+  - [[#credits][Credits]]
+  - [[#license][License]]
 
 ** Screenshots
 
 *** GitHub
 
 **** Dark
-[[screenshots/github-dark.png]]
+[[https://raw.githubusercontent.com/alphapapa/solarized-everything-css/screenshots/solarized-dark/github.png]]
 
 **** Light
-[[screenshots/github-light.png]]
+[[https://raw.githubusercontent.com/alphapapa/solarized-everything-css/screenshots/solarized-light/github.png]]
 
 *** Wikipedia
 
 **** Dark
-[[screenshots/wikipedia-dark.png]]
+[[https://raw.githubusercontent.com/alphapapa/solarized-everything-css/screenshots/solarized-dark/mediawiki.org.png]]
 
 **** Light
-[[screenshots/wikipedia-light.png]]
+[[https://raw.githubusercontent.com/alphapapa/solarized-everything-css/screenshots/solarized-light/mediawiki.org.png]]
 
 ** Installation                                                 :noexport_1:
 
@@ -42,34 +49,36 @@ You may install some of the stylesheets directly in your browser from [[http://u
 
 Install the stylesheet of your choice according to your browser's method (e.g. using the Stylish extension in Firefox).
 
+CSS files for each theme are in the =css= directory.
+
 **** Files
 
-- ~solarized-all-sites-*.css~
+- ~theme-all-sites-*.css~
   These have all the sites' styles smushed into one big file.  Might work pretty well for most sites.  If the collection grows, it might begin to have conflicts--but it still might work pretty well.  It might be a lot better than adding a separate stylesheet for every site you visit...
-- ~solarized-generic-*.css~
+- ~theme-generic-*.css~
   These are intended to be generic, suitable for many simple sites.  They probably won't do much for fancy, popular sites with lots of custom CSS, but for simple, mostly unstyled sites, they might work okay.
-- ~solarized-mediawiki-*.css~
+- ~theme-mediawiki-*.css~
   For MediaWiki sites, like Wikipedia
-- ~solarized-disqus-*.css~
+- ~theme-disqus-*.css~
   For Disqus comments
-- ~solarized-github-*.css~
+- ~theme-github-*.css~
   For GitHub
-- ~solarized-google-*.css~
+- ~theme-google-*.css~
   For Google
-- ~solarized-hackernews-*.css~
+- ~theme-hackernews-*.css~
   For Hacker News
-- ~solarized-planet.emacsen.org-*.css~
+- ~theme-planet.emacsen.org-*.css~
   For [[http://planet.emacsen.org][Planet Emacsen]]
-- ~solarized-stackexchange-*.css~
+- ~theme-stackexchange-*.css~
   For StackExchange sites.  Not all sites are covered, but some of the main ones are.  Patches welcome.
-- ~solarized-sakai-*.css~
+- ~theme-sakai-*.css~
   For sites hosted by [[https://sakaiproject.org/][sakai]], a popular course management program.
 
 ** Development                                                  :noexport_1:
 
 To make changes, just edit the =.styl= files and run =make=.  (You need to have Stylus installed, of course.)
 
-Basically, nearly the only things that should be in =dark.styl= or =light.styl= should be changes to the =color-= variables that adjust it for light or dark.  Everything else should go in =sites/*.styl=.  Colors are defined as =color-= variables, and mixins are used to insert common CSS properties (like =color=, =background=, etc) with =!important=.  Most changes can be made without inserting CSS properties directly into the selectors.
+Basically, nearly the only things that should be in =themes/*/*.styl= should be theme specific colors. Everything else should go in =sites/*.styl=. Colors are defined as =color-= variables, and mixins are used to insert common CSS properties (like =color=, =background=, etc) with =!important=. Most changes can be made without inserting CSS properties directly into the selectors.
 
 I highly recommend using Emacs with =stylus-mode= and =outline-minor-mode=, but, of course, you can use whatever you like.  :)
 
@@ -82,20 +91,31 @@ Stylus can be very confusing when it comes to importing/requiring sheets into ot
 This is how the sheets ~require~ in this project:
 
 + =Makefile=
-    - =styl/{dark,light}.styl= (in Makefile syntax: ~$$color.styl~)
-        + =colors=
-        + Contents of ={dark,light}.styl=
+    - =theme=: contains custom theme files. Each theme corresponds to a group of css files.
+        - =*/{dark,light}.styl= (in Makefile syntax: ~$$color.styl~)
+            - =colors=
+            - Contents of ={dark,light}.styl=
     - =styl= (which loads =styl/index.styl=)
-        + =generic=
-            - =mixins=
-    - =sites/*.styl=: The site-specific sheets, as well as =generic.styl=, which applies to all of them, and also builds as a separate sheet for non-specific sites.  =all-sites.styl= puts all of the site-specific sheets into one big CSS file, which some people may prefer over setting up custom CSS for each site in their browser.
+        - =mixins=
+    - =sites/*.styl=: The site-specific sheets, as well as =generic.styl=, which applies to all of them, and also builds as a separate sheet for non-specific sites.  =all-sites.styl= puts all of the site-specific sheets into one big CSS file, which some people may prefer over setting up custom CSS for each site in their browser. Styles starting with =_= will not be included in =all-sites.styl=
 
-This way, the Solarized color values are loaded first, followed by the dark- or light-themed mappings of those color values to friendly names, after which those friendly names can be used in the sheets that actually style elements and pages.
+This way, the color value-name mappings are loaded first, after which those friendly names can be used in the files that actually style elements and pages.
+
+*** New Themes
+
+It's easy to add your own themes:
+
+
+1. Copy an existing theme directory in the =themes/= directory, giving it a new name.
+2. Modify it as required.
+3. Run =make= in the project root directory to build the CSS files.
 
 ** Credits
 
 +  Thanks to [[https://github.com/The-Compiler][Florian Bruhin]] for contributing the Reddit and DuckDuckGo sheets, as well as several fixes and improvements.
 +  Thanks to [[https://github.com/jgkamat][Jay Kamat]] for contributing the Sakai stylesheet and several fixes and improvements.
++  Thanks to [[https://github.com/cal2195][Cal Martin]] for the gruvbox theme.
++  Thanks to [[https://github.com/non-Jedi][Adam Beckmeyer]] for adapting [[https://github.com/romainl/Apprentice][Romain Lafourcade's Apprentice theme]].
 
 ** License
 

@@ -254,7 +254,7 @@ a.filter-item:hover,
 }
 .avatar,
 .timeline-comment-avatar {
-  filter: opacity(50%);
+  filter: opacity(75%);
 }
 .blob-code {
   background-color: #fdf6e3 !important;
@@ -321,6 +321,14 @@ a.filter-item:hover,
   color: #859900 !important;
   font-weight: bold !important;
 }
+.pl-mi1 {
+  color: #859900 !important;
+  background-color: transparent !important;
+}
+.pl-md {
+  color: #dc322f !important;
+  background-color: transparent !important;
+}
 .border-bottom,
 .border-top {
   border-color: #eee8d5 !important;
@@ -386,6 +394,22 @@ a.filter-item:hover,
 .State--green {
   background-color: #859900 !important;
   color: #fdf6e3 !important;
+}
+.select-menu-filters {
+  background-color: #ebe4cf !important;
+  color: #586e75 !important;
+}
+.js-select-menu-tab {
+  background-color: #e9e1c8 !important;
+  color: #586e75 !important;
+}
+.select-menu-tabs a.selected,
+.select-menu-tab-nav.selected {
+  background-color: #93a1a1 !important;
+  color: #fdf6e3 !important;
+}
+.signed-commit-header {
+  background-color: #fdf6e3 !important;
 }
 .build-status-item {
   background-color: #e9e1c8 !important;
@@ -530,6 +554,11 @@ qul.branches-list * {
   color: #586e75 !important;
 }
 .discussion-item-icon.octicon {
+  color: #586e75 !important;
+}
+.discussion-item-entity,
+.discussion-item .renamed-was,
+.discussion-item .renamed-is {
   color: #586e75 !important;
 }
 .discussion-timeline:before {
@@ -1037,64 +1066,6 @@ div.crp {
 #fbar {
   background-color: #eee8d5 !important;
 }
-table {
-  background-color: #fdf6e3 !important;
-}
-#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table,
-#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table {
-  background-color: #cb4b16 !important;
-}
-#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) a,
-#hnmain > tbody:nth-child(1) > tr:nth-child(1) a {
-  color: #000 !important;
-}
-#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2),
-#hnmain > tbody:nth-child(1) > tr:nth-child(2) {
-  background-color: #fdf6e3 !important;
-}
-#hnmain > tbody:nth-child(1) > tr:nth-child(2) {
-  background-color: #fdf6e3 !important;
-}
-.title a {
-  color: #657b83 !important;
-}
-.title a:visited {
-  color: #93a1a1 !important;
-}
-a.storylink {
-  color: #586e75 !important;
-  font-weight: bold;
-}
-.sitestr {
-  color: #268bd2 !important;
-}
-#hnmain > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) {
-  background-color: #fdf6e3 !important;
-}
-#hnmain .comhead {
-  color: #586e75 !important;
-}
-#hnmain .c00 {
-  color: #657b83 !important;
-}
-#hnmain a.hnuser {
-  color: #b58900 !important;
-}
-#hnmain span.age a {
-  color: #93a1a1 !important;
-}
-.cdd {
-  color: rgba(202,0,0,0.65) !important;
-}
-.comment i {
-  color: #93a1a1 !important;
-}
-#hnmain > tbody:nth-child(1) > tr:nth-child(4) {
-  background-color: #fdf6e3 !important;
-}
-#hnmain > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
-  background-color: #cb4b16 !important;
-}
 tr.Even {
   background-color: #eee8d5 !important;
 }
@@ -1262,6 +1233,64 @@ table.wikitable {
 }
 table.wikitable > * > tr > th {
   background-color: #eee8d5 !important;
+}
+table {
+  background-color: #fdf6e3 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table,
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table {
+  background-color: #cb4b16 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) a,
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) a {
+  color: #000 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2),
+#hnmain > tbody:nth-child(1) > tr:nth-child(2) {
+  background-color: #fdf6e3 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(2) {
+  background-color: #fdf6e3 !important;
+}
+.title a {
+  color: #657b83 !important;
+}
+.title a:visited {
+  color: #93a1a1 !important;
+}
+a.storylink {
+  color: #586e75 !important;
+  font-weight: bold;
+}
+.sitestr {
+  color: #268bd2 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) {
+  background-color: #fdf6e3 !important;
+}
+#hnmain .comhead {
+  color: #586e75 !important;
+}
+#hnmain .c00 {
+  color: #657b83 !important;
+}
+#hnmain a.hnuser {
+  color: #b58900 !important;
+}
+#hnmain span.age a {
+  color: #93a1a1 !important;
+}
+.cdd {
+  color: rgba(202,0,0,0.65) !important;
+}
+.comment i {
+  color: #93a1a1 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(4) {
+  background-color: #fdf6e3 !important;
+}
+#hnmain > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+  background-color: #cb4b16 !important;
 }
 div#page div#header {
   background-color: #fdf6e3 !important;
