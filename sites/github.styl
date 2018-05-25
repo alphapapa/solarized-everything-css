@@ -14,7 +14,22 @@
 
 .link-gray-dark
 .text-gray-dark
+.text-gray
     color()
+
+.Box
+    background-color color-background
+    color emphasized
+    border 1px solid color-border i
+
+.Box-header
+.Box-body
+.Box-row
+    border-color color-border
+
+.Box-header
+.Box-row--hover-blue:hover
+    background-color color-background-highlight-extra-less
 
 .bg-white
     // Nope!
@@ -247,6 +262,10 @@ a.filter-item
 .border-bottom
 .border-top
     border-color color-background-highlight
+
+// matches homescreen dynamic box but not anything else
+li.d-flex.border-top
+    border-color color-border
 
 // ** boxed-group
 .boxed-group
