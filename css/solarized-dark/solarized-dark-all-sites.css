@@ -99,8 +99,22 @@ pre {
   background-color: #083c4a !important;
 }
 .link-gray-dark,
-.text-gray-dark {
+.text-gray-dark,
+.text-gray {
   color: #839496 !important;
+}
+.Box {
+  background-color: #002b36 !important;
+  color: #93a1a1 !important;
+  border: 1px solid #657b83 !important;
+}
+.Box-header,
+.Box-body {
+  border-color: #657b83 !important;
+}
+.Box-header,
+.Box-row--hover-blue:hover {
+  background-color: #094352 !important;
 }
 .bg-white {
   background-color: #002b36 !important;

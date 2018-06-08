@@ -31,8 +31,22 @@ pre {
   background-color: #ebe4cf !important;
 }
 .link-gray-dark,
-.text-gray-dark {
+.text-gray-dark,
+.text-gray {
   color: #657b83 !important;
+}
+.Box {
+  background-color: #fdf6e3 !important;
+  color: #586e75 !important;
+  border: 1px solid #839496 !important;
+}
+.Box-header,
+.Box-body {
+  border-color: #839496 !important;
+}
+.Box-header,
+.Box-row--hover-blue:hover {
+  background-color: #e9e1c8 !important;
 }
 .bg-white {
   background-color: #fdf6e3 !important;
