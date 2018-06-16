@@ -617,20 +617,16 @@ a.label {
 .notifications-list li {
   background-color: #282828 !important;
 }
-.octicon,
 .octicon-repo {
   color: #8ec07c !important;
 }
-.octicon.type-icon-state-closed,
-.octicon-repo.type-icon-state-closed {
+.type-icon-state-closed {
   color: rgba(255,34,23,0.65) !important;
 }
-.octicon.type-icon-state-merged,
-.octicon-repo.type-icon-state-merged {
+.type-icon-state-merged {
   color: #d3869b !important;
 }
-.octicon.type-icon-state-open,
-.octicon-repo.type-icon-state-open {
+.type-icon-state-open {
   color: rgba(212,211,18,0.65) !important;
 }
 .octicon-alert {
@@ -648,7 +644,6 @@ a.label {
 .octicon-clippy {
   color: #8ec07c !important;
 }
-.octicon-git-pull-request,
 .octicon-diff {
   color: #fff !important;
 }
