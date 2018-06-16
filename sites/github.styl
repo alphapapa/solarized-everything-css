@@ -996,3 +996,32 @@ a.tabnav-tab
 
     li.navigation-focus
         background-color highlight-extra
+
+// ** .menu
+
+.menu
+    background-color highlight
+
+.menu-item
+    &.selected
+        background-color color-background-highlight-extra-less
+    &:hover
+        background-color highlight-extra
+
+// ** .Box
+
+.Box
+    background-color()
+
+.Box-header
+    background-color highlight
+
+svg > * text  // I don't understand this selector but it works
+    color()
+    fill color-text i
+
+.insertions
+    color green
+
+.deletions
+    color red

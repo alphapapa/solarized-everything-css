@@ -945,3 +945,28 @@ a.tabnav-tab.selected,
 .suggester li.navigation-focus {
   background-color: #93a1a1 !important;
 }
+.menu {
+  background-color: #eee8d5 !important;
+}
+.menu-item.selected {
+  background-color: #e9e1c8 !important;
+}
+.menu-item:hover {
+  background-color: #93a1a1 !important;
+}
+.Box {
+  background-color: #fdf6e3 !important;
+}
+.Box-header {
+  background-color: #eee8d5 !important;
+}
+svg > * text {
+  color: #657b83 !important;
+  fill: #657b83 !important;
+}
+.insertions {
+  color: #859900 !important;
+}
+.deletions {
+  color: #dc322f !important;
+}

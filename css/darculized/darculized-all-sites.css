@@ -1013,6 +1013,31 @@ a.tabnav-tab.selected,
 .suggester li.navigation-focus {
   background-color: #5e6263 !important;
 }
+.menu {
+  background-color: #2e2e2e !important;
+}
+.menu-item.selected {
+  background-color: #363636 !important;
+}
+.menu-item:hover {
+  background-color: #5e6263 !important;
+}
+.Box {
+  background-color: #262626 !important;
+}
+.Box-header {
+  background-color: #2e2e2e !important;
+}
+svg > * text {
+  color: #909396 !important;
+  fill: #909396 !important;
+}
+.insertions {
+  color: #598249 !important;
+}
+.deletions {
+  color: #bd3832 !important;
+}
 .sfbgg {
   background-color: #2e2e2e !important;
 }
