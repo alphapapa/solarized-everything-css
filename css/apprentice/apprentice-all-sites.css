@@ -777,8 +777,9 @@ a.label {
 .review-thread-reply .inline-comment-form {
   background-color: #262626 !important;
 }
+.merged.octicon,
 .octicon-git-merge {
-  color: #fff !important;
+  color: #ee82ee !important;
 }
 .uploaded-files {
   background-color: #262626 !important;
