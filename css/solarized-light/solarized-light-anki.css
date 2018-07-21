@@ -1,0 +1,110 @@
+/* Applies to both ankiweb.net and ankiuser.net */
+
+/* * General */
+
+/* ** Reflect Ankiweb's choice to use red text for code */
+code {
+    color: #dc322f !important; /* red */
+}
+
+
+/* * Header */
+.bg-gray {
+    background-color: #eee8d5 !important; /* base2 */
+}
+
+#logo {
+    filter: saturate(0.6) hue-rotate(10deg) brightness(0.9) !important; /* approx. blue */
+}
+
+
+/* * Buttons */
+.btn-primary {
+    background-color: #268bd2 !important; /* blue */
+    border-color: #268bd2 !important; /* blue */
+    color: #fdf6e3 !important; /* base3 */
+}
+
+.btn-secondary {
+    background-color: #eee8d5 !important; /* base2 */
+}
+
+.btn-link {
+    border: none !important;
+    color: #268bd2 !important; /* blue */
+}
+
+
+/* * Deck view */
+
+/* ** Deck list separators */
+.light-bottom-border {
+    border-color: #eee8d5 !important; /* base2 */
+}
+
+/* ** Card counters */
+.col-1 > div:nth-child(1) > font,
+#overview > div:nth-child(5) > div:nth-child(2) > b > font,
+#rightStudyMenu > font:nth-child(3) {
+    /* Green new card counters */
+    color: #859900 !important; /* green */
+}
+.col-1 > div:nth-child(2) > font,
+#overview > div:nth-child(3) > div:nth-child(2) > b > font,
+#rightStudyMenu > font:nth-child(1) {
+    /* Blue review card counters */
+    color: #268bd2 !important; /* blue */
+}
+#overview > div:nth-child(4) > div:nth-child(2) > b > font,
+#rightStudyMenu > font:nth-child(2) {
+    /* Red "In Learning" counter */
+    color: #dc322f !important; /* red */
+}
+
+/* ** Dropdown menu */
+.dropdown-menu {
+    background-color: #eee8d5 !important; /* base2 */
+}
+.dropdown-item {
+    color: #657b83 !important; /* base00 */
+}
+.dropdown-item:focus, .dropdown-item:hover, .dropdown-item:active {
+    background-color: #eee8d5 !important; /* base2 */
+}
+
+
+
+/* * Reviews */
+.card {
+    /* Don't make the card background white for no reason */
+    background-color: inherit !important;
+}
+
+#ansarea {
+    background-color: #eee8d5 !important; /* base2 */
+}
+
+
+/* * Add new card */
+.form-control {
+    /* Text input fields */
+    background-color: #eee8d5 !important; /* base2 */
+}
+
+
+/* * Add-ons */
+img.twox[src="/static/icons/like.png"] {
+    /* Thumbs up */
+    filter: saturate(0.8) hue-rotate(310deg) !important; /* approx. green */
+}
+img.twox[src="/static/icons/dislike.png"] {
+    /* Thumbs down */
+    filter: saturate(0.9) brightness(0.95) !important; /* approx. red */
+}
+
+
+/* * Shared info page */
+.alert-info {
+    background-color: #268bd2 !important; /* blue */
+    color: #fdf6e3 !important; /* base3 */
+}
