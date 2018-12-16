@@ -189,6 +189,9 @@ a.filter-item:hover,
   background-color: #eee8d5 !important;
   color: #586e75 !important;
 }
+.gh-header {
+  background-color: #fdf6e3 !important;
+}
 .gh-header-number {
   color: #93a1a1 !important;
 }
