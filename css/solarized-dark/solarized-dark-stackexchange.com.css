@@ -52,6 +52,16 @@ hr {
 .question-status {
   background-color: #073642 !important;
 }
+.bg-black-050 {
+  background-color: transparent !important;
+}
+.val-info {
+  background-color: transparent !important;
+  color: #839496 !important;
+}
+.s-label {
+  color: #839496 !important;
+}
 pre code {
   background-color: #073642 !important;
   color: #93a1a1 !important;

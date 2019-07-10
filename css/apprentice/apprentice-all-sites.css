@@ -1518,6 +1518,16 @@ hr {
 .question-status {
   background-color: #272727 !important;
 }
+.bg-black-050 {
+  background-color: transparent !important;
+}
+.val-info {
+  background-color: transparent !important;
+  color: #bcbcbc !important;
+}
+.s-label {
+  color: #bcbcbc !important;
+}
 pre code {
   background-color: #272727 !important;
   color: #ff8700 !important;
