@@ -7,6 +7,23 @@
 // ** HTML elements
 *
     border-color()
+
+// HACK: Don't apply A color to GitHub issue labels.  This should not
+// be done here, but to do otherwise would require removing the A rule
+// from this file and adding it to all other sites manually.  The
+// issue is that GitHub assigns label colors in <SPAN STYLE=...> tags
+// depending on the label's background color, so we don't want to
+// override label A colors, but there is no way in CSS to negate
+// !important for certain selectors.
+
+// But apparently Stylus (or the version I have, at least, who knows)
+// doesn't support :not(), and it removes it from the CSS files it
+// compiles.  So while this hack might work in the future, it appears
+// that, for now, the GitHub CSS must be edited manually after
+// generation.  What an awful idea...
+
+// a:not(.IssueLabel)
+
 a
     a()
 a:visited
