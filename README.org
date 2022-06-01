@@ -116,6 +116,7 @@ It's easy to add your own themes:
 +  Thanks to [[https://github.com/jgkamat][Jay Kamat]] for contributing the Sakai stylesheet and several fixes and improvements.
 +  Thanks to [[https://github.com/cal2195][Cal Martin]] for the gruvbox theme.
 +  Thanks to [[https://github.com/non-Jedi][Adam Beckmeyer]] for adapting [[https://github.com/romainl/Apprentice][Romain Lafourcade's Apprentice theme]].
++  Thanks to [[https://github.com/appcreatorguy][Manas Mengle]] for the catppuccin themes.
 
 ** License
 
