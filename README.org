@@ -7,12 +7,6 @@ Wouldn't it be nice if (almost) every web site looked Solarized?  I thought so. 
 ** Contents :TOC:
 - [[#solarizedeverything][Solarized...Everything?]]
   - [[#screenshots][Screenshots]]
-    - [[#github][GitHub]]
-      - [[#dark][Dark]]
-      - [[#light][Light]]
-    - [[#wikipedia][Wikipedia]]
-      - [[#dark-1][Dark]]
-      - [[#light-1][Light]]
   - [[#installation][Installation]]
   - [[#development][Development]]
   - [[#credits][Credits]]
