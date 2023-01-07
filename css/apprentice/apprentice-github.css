@@ -774,6 +774,9 @@ ul.comparison-list {
 .pagehead.repohead {
   background-color: #272727 !important;
 }
+.pt-3 {
+  background-color: #272727 !important;
+}
 .repository-content .RecentBranches {
   background-color: #272727 !important;
   border-color: #800080 !important;
